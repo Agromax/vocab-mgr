@@ -1,0 +1,5 @@
+{
+  "name": "regalo",
+  "host": "localhost",
+  "schema": "mongodb"
+}
