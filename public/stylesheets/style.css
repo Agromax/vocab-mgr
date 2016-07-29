@@ -1,8 +1,60 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+.action-bar {
+    background: #ececec;
+}
+
+.fab {
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    background: dodgerblue;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 64px;
+    box-shadow: 2px 2px 4px #4d4d4d;
+    cursor: pointer;
+}
+
+.fab:hover {
+    box-shadow: 1px 1px 3px #4d4d4d;
+}
+
+.fab:active {
+    box-shadow: none;
+}
+
+.fab span {
+    line-height: 50px;
+}
+
+.whitish {
+    color: #ffffff;
+}
+
+.fab-font {
+    font-size: 24px;
+}
+
+.file-item {
+    padding: 8px;
+    border-bottom: solid 1px #ccc;
+}
+
+.hint-list {
+    /*visibility: hidden;*/
+    margin-top: 20px;
+    position: absolute;
+    background: #00B7FF;
+    z-index: 100000;
+    top: 10px;
+    left: 10px;
 }
