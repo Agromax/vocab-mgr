@@ -53,8 +53,47 @@ a {
     /*visibility: hidden;*/
     margin-top: 20px;
     position: absolute;
-    background: #00B7FF;
+    background: rgb(234, 255, 209);
     z-index: 100000;
     top: 10px;
     left: 10px;
+    border: solid 1px #a3a3a3;
+
+    max-height: 40vh;
+    overflow-x: auto;
+    overflow-y: scroll;
+
+    box-shadow: 0 2px 4px #ccc;
 }
+
+.hint {
+    font-family: "Courier New";
+    font-size: 12px;
+    cursor: pointer;
+    color: #4d4d4d;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.hint b {
+    color: rgba(232, 0, 255, 0.47);
+    font-weight: bold;
+}
+
+.hint-selected {
+    background: dodgerblue;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hint:hover {
+    background: #166dc2;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.hint-status {
+    font-size: 9px;
+    background: #eeeeee;
+}
+

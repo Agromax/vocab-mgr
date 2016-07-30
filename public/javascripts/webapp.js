@@ -17,12 +17,77 @@ var TripleEntry = React.createClass({
     }
 });
 
+var Hint = React.createClass({
+    highlight: function (s, q) {
+        var j = 0;
+        var highlighted = [];
+
+        for (var i = 0; i < q.length; i++) {
+            var qi = q.charAt(i);
+
+            for (; j < s.length; j++) {
+                var sj = s.charAt(j);
+                if (qi.toLowerCase() === sj.toLowerCase()) {
+                    highlighted.push("<b>" + sj + "</b>");
+                    j++;
+                    break;
+                } else {
+                    highlighted.push(sj);
+                }
+            }
+        }
+
+        while (j < s.length) {
+            highlighted.push(s.charAt(j));
+            j++;
+        }
+        return highlighted.join('');
+    },
+    rawMarkup: function () {
+        var q = this.props.query || "";
+        var text = this.highlight(this.props.text, q);
+        return {__html: text};
+    },
+
+    click: function () {
+        this.props.onSelected(this.props.text);
+    },
+
+    render: function () {
+        var self = this;
+        var hintClass = "col-sm-12 hint";
+        return (
+            <div
+                dangerouslySetInnerHTML={this.rawMarkup()}
+                className={hintClass}
+                onClick={self.click}>
+            </div>
+        );
+    }
+});
+
 var CompletionHints = React.createClass({
+    getInitialState: function () {
+        return {selected: ''};
+    },
+    handleHintSelected: function (hintText) {
+        this.setState({selected: hintText});
+        this.props.onHintSelected(hintText);
+    },
+    componentDidUpdate: function () {
+        ReactDOM.findDOMNode(this).scrollTop = 0;
+    },
     render: function () {
         var hints = [];
+        var self = this;
+
         this.props.hints.forEach(function (hint) {
             hints.push(
-                <div className="col-sm-12">{hint}</div>
+                <Hint
+                    onSelected={self.handleHintSelected}
+                    text={hint}
+                    query={self.props.query}
+                />
             );
         });
         var style = {'visibility': this.props.visible ? 'visible' : 'hidden'};
@@ -49,25 +114,51 @@ var TripleRelationEntry = React.createClass({
     },
     handleBlur: function () {
         this.setState({
-            hintsVisible: false
+            // hintsVisible: false
         });
     },
     filterHints: function (q) {
-        var filteredHints = this.props.hints.filter(function (hint) {
-            return hint.contains(q);
+        var sortedHints = this.props.hints.sort(function (a, b) {
+            var ai = a.toLowerCase().indexOf(q);
+            var bi = b.toLowerCase().indexOf(q);
+            if (ai >= 0 && bi >= 0) {
+                return ai - bi;
+            }
+            if (ai < 0 && bi >= 0) {
+                return 1;
+            }
+            if (bi < 0 && ai >= 0) {
+                return -1;
+            }
+            return 0;
         });
-
-
         this.setState({
-            hints: filteredHints
+            hints: sortedHints
         });
 
     },
+
+    componentDidMount: function () {
+        var self = this;
+        $.get("http://localhost:3000/relations", function (data) {
+            self.setState({
+                hints: data.split("\n")
+            });
+        });
+    },
+
     handleTextChange: function (e) {
         this.setState({
             query: e.target.value
         });
         this.filterHints(e.target.value);
+    },
+
+    handleHintSelected: function (hintText) {
+        this.setState({
+            hintsVisible: false,
+            query: hintText
+        })
     },
     render: function () {
         return (
@@ -78,7 +169,11 @@ var TripleRelationEntry = React.createClass({
                        placeholder="Start typing"
                        value={this.state.query}
                        onChange={this.handleTextChange}/>
-                <CompletionHints hints={this.state.hints} visible={this.state.hintsVisible}/>
+                <CompletionHints hints={this.state.hints}
+                                 visible={this.state.hintsVisible}
+                                 onHintSelected={this.handleHintSelected}
+                                 query={this.state.query}
+                />
             </div>
         );
     }
@@ -88,11 +183,16 @@ var TripleRelationEntry = React.createClass({
 var Triple = React.createClass({
     getInitialState: function () {
         return {
-            hints: []
+            hints: ["hint 1", "hint 2", "hint 3", "hint 4"]
         };
     },
     componentDidMount: function () {
-        $.get('/')
+        var self = this;
+        $.get("http://localhost:3000/relations", function (data) {
+            self.setState({
+                hints: data.split("\n")
+            });
+        });
     },
     render: function () {
         var data = this.props.data;
@@ -100,7 +200,6 @@ var Triple = React.createClass({
         var sub = data.sub;
         var pre = data.pre;
         var obj = data.obj;
-        var hints = ["hint 1", "hint 2", "hint 3"];
 
         return (
             <div className="row">
@@ -175,6 +274,8 @@ var FilterableFileList = React.createClass({
     }
 });
 
+
+var File
 
 var FAB = React.createClass({
     handleClick: function (e) {

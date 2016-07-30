@@ -1,0 +1,159 @@
+Acts upon
+Affects
+Afflicts
+Benefits from
+Bibliographic relations
+Causative relationship
+Causes
+Class includes order
+Compose
+Controls
+Develops from
+Develops into
+Essive relations
+Family has order
+Family includes genus
+Follows
+Formerly included in
+Formerly includes
+Genus has family
+Genus includes species
+Great Group has Sub Order
+Great Group includes Sub Group
+Greater than
+Grows in
+Has a related type
+Has antonym or Has opposite
+Has biological control agent
+Has breeding method
+Has component
+Has composition
+Has control method
+Has croping system
+Has cultivation process
+Has disease
+Has disorder
+Has goal or process
+Has host or Is vector for
+Has infection part
+Has member
+Has natural enemy
+Has object of activity
+Has parent
+Has part
+Has pathogen
+Has pest
+Has physiological function
+Has portion
+Has post-production practice
+Has practice
+Has product
+Has propagation material
+Has Propagation process
+Has property
+Has related concept
+Has scopenote related to concept
+Has substitute
+Has symptom
+Has taxonomic level
+Has theme
+Has type
+Has variety
+Has vector or Is host for
+Has weed
+Included in
+Includes
+Includes subprocess
+Indicates
+Influences
+Instrumental relations
+Is a growth environment for
+Is a pest of
+Is a related type of
+Is achieved by means of
+Is acted upon by
+Is affected by
+Is afflicted by
+Is beneficial for
+Is biological control agent of
+Is breeding method of
+Is caused by
+Is component of
+Is composed of
+Is composition of
+Is control method of
+Is controlled by
+Is croping system of
+Is cultivation process of
+Is derived from
+Is disease for
+Is disorder of
+Is infected part of
+Is influenced by or Depends on
+Is input for
+Is made from
+Is means for
+Is measured by
+Is member of
+Is natural enemy of
+Is object of activity
+Is other language edition of
+Is output from
+Is parent of
+Is part of
+Is pathogen of
+Is performed by
+Is performed by means of
+Is physiological function of
+Is portion of
+Is post-production practice for
+Is practice for
+Is prevented by
+Is process for
+Is produced by
+Is propagation material of
+Is propagation process of
+Is property of
+Is published by
+Is referenced in concept scopenote
+Is source of
+Is spatially included in
+Is studied by
+Is subprocess of
+Is substitute for
+Is taxonomic level of
+Is theme of
+Is use of
+Is used as
+Is used in
+Is used to make
+Is weed of
+Make use of
+Measures
+Order has class
+Order includes family
+Partitive relations
+Performs
+Precedes
+Prevents
+Produces
+Product of
+Publishes
+Quantitative relationship
+Smaller than
+Spatial relations
+Spatially includes
+Species has genus
+Species includes Subspecies
+Study
+Sub Group has Great Group
+Sub Order includes Great Group
+Subspecies has Species
+Surrounded by
+Surrounds
+Taxonomic relationship
+Temporal relations
+Type of
+Uses process
+Using value
+Value used in
