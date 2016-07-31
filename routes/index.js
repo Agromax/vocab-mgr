@@ -5,6 +5,7 @@ var multer = require('multer');
 var crypto = require('crypto');
 var schema = require('../lib/schema');
 var fs = require('fs');
+var toCSV = require('../lib/xlsToCSV');
 
 var FileStore = schema.FileStore;
 
@@ -79,7 +80,12 @@ router.get('/delete', function (req, res) {
                     msg: err
                 });
             }
+
             fs.unlink(file.storagePath);
+            if (file.csvStoragePath) {
+                fs.unlink(file.csvStoragePath);
+            }
+
             res.json({
                 code: 0,
                 msg: 'Deleted'
@@ -136,21 +142,35 @@ router.post('/upload', function (req, res, next) {
         var filename = req.body.filename;
         var storagePath = req.file.path;
 
-        new FileStore({
-            storagePath: storagePath,
-            name: filename
-        }).save().then(function (fs) {
-            if (fs) {
-                res.json({
-                    code: 0
-                })
-            } else {
-                res.json({
-                    code: -1
-                })
-            }
-        });
-
+        // Test if its an xls file
+        if (storagePath.endsWith('.xls') || storagePath.endsWith('.xlsx')) { // Convert these files to csv
+            var csvDump = toCSV(storagePath);
+            var storagePathElements = path.parse(storagePath);
+            var csvStoragePath = path.join(process.cwd(), "csvs", storagePathElements.name + ".csv");
+            fs.writeFile(csvStoragePath, csvDump, 0);
+            new FileStore({
+                storagePath: storagePath,
+                csvStoragePath: csvStoragePath,
+                name: filename,
+                time: Date.now()
+            }).save().then(function (fs) {
+                if (fs) {
+                    res.json({
+                        code: 0,
+                        msg: 'File uploaded successfully!'
+                    });
+                } else {
+                    res.json({
+                        code: -1
+                    });
+                }
+            });
+        } else {
+            res.json({
+                code: -1,
+                msg: 'Incorrect file format, only xls, xlsx formats are supported'
+            });
+        }
     });
 });
 

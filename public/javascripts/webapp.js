@@ -249,42 +249,79 @@ var ActionCenter = React.createClass({
 });
 
 
-var FilterableFileList = React.createClass({
-    handleFileItemClicked: function () {
-        alert('Hello');
+var FileItem = React.createClass({
+    handleFileClick: function () {
+        this.props.onFileSelected(this.props.data);
     },
     render: function () {
-        var fileList = this.props.fileList || [];
+        var self = this;
+        var file = self.props.data;
+
+        return (
+            <div className="file-item" onClick={this.handleFileClick}>
+                {file.name}
+            </div>
+        );
+    }
+});
+
+var FilterableFileList = React.createClass({
+    handleFileSelected: function (file) {
+        alert(file);
+    },
+    render: function () {
+        var fileList = this.props.files || [];
+        var filterQuery = (this.props.query || "").toLowerCase();
         var listViews = [];
         var self = this;
 
         fileList.forEach(function (file) {
-            listViews.push(
-                <div className="row" onClick={self.handleFileItemClicked}>
-                    <div className="file-item">{file.name}</div>
-                </div>
-            );
+            if (file.name.toLowerCase().includes(filterQuery)) {
+                listViews.push(
+                    <FileItem data={file} onFileSelected={self.handleFileSelected}/>
+                );
+            }
         });
 
         return (
-            <div className="col-md-3">
+            <div className="row">
                 {listViews}
             </div>
         );
     }
 });
 
-
-var UploadDialog = React.createClass({
+var FileList = React.createClass({
+    getInitialState: function () {
+        return {
+            files: [],
+            query: ''
+        };
+    },
+    handleQuery: function (e) {
+        this.setState({
+            query: e.target.value
+        });
+    },
+    componentDidMount: function () {
+        var self = this;
+        $.get('/files', function (data) {
+            self.setState({
+                files: data
+            });
+        });
+    },
     render: function () {
         return (
-            <div className="upload-dialog">
-                <div className="title">Upload File</div>
-                <h1>This is just a panel</h1>
+            <div className="col-md-3">
+                <input type="text" placeholder="Search files by name" value={this.state.query}
+                       onChange={this.handleQuery}/>
+                <FilterableFileList files={this.state.files} query={this.state.query}/>
             </div>
         );
     }
 });
+
 
 var FAB = React.createClass({
     handleClick: function (e) {
@@ -303,12 +340,9 @@ var Dashboard = React.createClass({
     render: function () {
         return (
             <div className="container-fluid">
-                <UploadDialog />
                 <div className="row">Here comes the header</div>
                 <div className="row">
-                    <FilterableFileList
-                        fileList={[{name: 'A'}, {name: "CCC"}, {name: "DDD"}]}
-                    />
+                    <FileList/>
                     <ActionCenter/>
                 </div>
                 <FAB/>

@@ -47,6 +47,11 @@ a {
 .file-item {
     padding: 8px;
     border-bottom: solid 1px #ccc;
+    cursor: pointer;
+}
+
+.file-item:hover {
+    text-decoration: underline;
 }
 
 .hint-list {
