@@ -97,3 +97,20 @@ a {
     background: #eeeeee;
 }
 
+.upload-dialog {
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    overflow: auto;
+    z-index: 10000;
+    background: #ffffff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    border: solid 1px #4d4d4d;
+}
+
+.upload-dialog .title {
+    background: #166dc2;
+    color: #e8e8e8;
+    font-weight: bold;
+    padding: 8px;
+}

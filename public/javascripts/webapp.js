@@ -275,7 +275,16 @@ var FilterableFileList = React.createClass({
 });
 
 
-var File
+var UploadDialog = React.createClass({
+    render: function () {
+        return (
+            <div className="upload-dialog">
+                <div className="title">Upload File</div>
+                <h1>This is just a panel</h1>
+            </div>
+        );
+    }
+});
 
 var FAB = React.createClass({
     handleClick: function (e) {
@@ -294,6 +303,7 @@ var Dashboard = React.createClass({
     render: function () {
         return (
             <div className="container-fluid">
+                <UploadDialog />
                 <div className="row">Here comes the header</div>
                 <div className="row">
                     <FilterableFileList

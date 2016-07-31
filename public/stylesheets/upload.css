@@ -1,0 +1,11 @@
+.file-list {
+    margin-top: 32px;
+}
+
+.enabled {
+    background: rgba(255, 112, 112, 0.15);
+}
+
+.disabled {
+    background: rgba(154, 255, 154, 0.29);
+}
