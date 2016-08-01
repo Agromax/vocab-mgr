@@ -6,8 +6,11 @@ var crypto = require('crypto');
 var schema = require('../lib/schema');
 var fs = require('fs');
 var toCSV = require('../lib/xlsToCSV');
+var mongoose = require('mongoose');
 
 var FileStore = schema.FileStore;
+var Triple = schema.Triple;
+var TripleStore = schema.TripleStore;
 
 function getExtension(name) {
     var dot = name.lastIndexOf('.');
@@ -147,14 +150,14 @@ router.post('/upload', function (req, res, next) {
             var csvDump = toCSV(storagePath);
             var storagePathElements = path.parse(storagePath);
             var csvStoragePath = path.join(process.cwd(), "csvs", storagePathElements.name + ".csv");
-            fs.writeFile(csvStoragePath, csvDump, 0);
             new FileStore({
                 storagePath: storagePath,
                 csvStoragePath: csvStoragePath,
                 name: filename,
                 time: Date.now()
-            }).save().then(function (fs) {
-                if (fs) {
+            }).save().then(function (fs1) {
+                if (fs1) {
+                    fs.writeFile(csvStoragePath, csvDump, 0);
                     res.json({
                         code: 0,
                         msg: 'File uploaded successfully!'
@@ -174,5 +177,104 @@ router.post('/upload', function (req, res, next) {
     });
 });
 
+router.get('/triples', function (req, res) {
+    var fileId = req.query.fileId;
+    var page = req.query.page;
+    if (!page) page = 0;
+    var limit = 25;
+
+    TripleStore.findOne({fileId: fileId}, function (err, file) {
+        if (err) {
+            return res.json({
+                code: -1,
+                msg: err
+            });
+        }
+
+        var triplets = file.triplets;
+        if (triplets) {
+            var start = page * limit;
+            var end = page * limit + limit;
+            if (end > triplets.length) {
+                end = triplets.length;
+            }
+
+            if (start >= 0 && start < end) {
+                var result = triplets.slice(start, end);
+                return res.json({
+                    code: 0,
+                    msg: result
+                });
+            } else {
+                return res.json({
+                    code: -1,
+                    msg: 'Assertion Failure'
+                });
+            }
+        } else {
+            return res.json({
+                code: -1,
+                msg: 'No triplets found'
+            });
+        }
+    });
+
+});
+
+router.post('/updateTriple', function (req, res) {
+    var tripleId = req.body.tripleId;
+    var sub = req.body.sub;
+    var pre = req.body.pre;
+    var obj = req.body.obj;
+    var fileId = req.body.fileId;
+
+    TripleStore.findOne({fileId: fileId}, function (err, store) {
+        if (err) {
+            console.log(err);
+            return res.json({
+                code: -1,
+                msg: err
+            });
+        }
+
+        if (store) {
+            // console.log(store);
+            var triplets = store.triplets;
+            if (triplets) {
+                triplets.forEach(function (t) {
+                    if (t._id.toString() === tripleId) {
+                        t.sub = sub;
+                        t.pre = pre;
+                        t.obj = obj;
+
+                        store.save(function (err, store1) {
+                            if (err) {
+                                return res.json({
+                                    code: -1,
+                                    msg: err
+                                });
+                            }
+                            return res.json({
+                                code: 0,
+                                msg: 'Done'
+                            });
+                        });
+                    }
+                });
+                
+            } else {
+                return res.json({
+                    code: -1,
+                    msg: 'Triplets are null'
+                });
+            }
+        } else {
+            return res.json({
+                code: -1,
+                msg: 'Store is null'
+            });
+        }
+    });
+});
 
 module.exports = router;

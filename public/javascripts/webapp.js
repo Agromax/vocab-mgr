@@ -1,9 +1,61 @@
 var ActionBar = React.createClass({
+    handlePrevious: function () {
+        this.props.onPrevious();
+    },
+    handleNext: function () {
+        this.props.onNext();
+    },
     render: function () {
         return (
-            <div className="action-bar">
-                ActionBar
-            </div>
+            <nav className="navbar navbar-default">
+                <div className="container-fluid">
+                    <div className="navbar-header">
+                        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span className="sr-only">Toggle navigation</span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                        </button>
+                        <a className="navbar-brand" href="#">{this.props.filename}</a>
+                    </div>
+                    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul className="nav navbar-nav">
+                            <li className="dropdown">
+                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Download <span
+                                    className="caret"></span></a>
+                                <ul className="dropdown-menu">
+                                    <li><a href="#">As CSV</a></li>
+                                    <li><a href="#">As JSON</a></li>
+                                    <li><a href="#">As RDF</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul className="nav navbar-nav navbar-right">
+                            <form className="navbar-form navbar-left">
+                                <div className="form-group">
+                                    <input type="text" className="form-control" placeholder="Search"/>
+                                </div>
+                            </form>
+                        </ul>
+                        <ul className="nav navbar-nav navbar-right">
+                            <form className="navbar-form navbar-left">
+                                <div className="btn-group" role="group">
+                                    <button type="button" className="btn btn-default"
+                                            onClick={this.handlePrevious}><span
+                                        className="glyphicon glyphicon-triangle-left"></span> Previous
+                                    </button>
+                                    <button type="button" className="btn btn-default" onClick={this.handleNext}>
+                                        Next <span
+                                        className="glyphicon glyphicon-triangle-right"></span></button>
+                                </div>
+                            </form>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
         );
     }
 });
@@ -102,7 +154,7 @@ var CompletionHints = React.createClass({
 var TripleRelationEntry = React.createClass({
     getInitialState: function () {
         return {
-            query: '',
+            query: this.props.name,
             hintsVisible: false,
             hints: this.props.hints
         };
@@ -152,13 +204,15 @@ var TripleRelationEntry = React.createClass({
             query: e.target.value
         });
         this.filterHints(e.target.value);
+        this.props.onChange(e.target.value);
     },
 
     handleHintSelected: function (hintText) {
         this.setState({
             hintsVisible: false,
             query: hintText
-        })
+        });
+        this.props.onChange(hintText);
     },
     render: function () {
         return (
@@ -194,6 +248,18 @@ var Triple = React.createClass({
             });
         });
     },
+    handlePredicateChange: function (pred) {
+        $.post('/updateTriple', {
+            sub: this.props.data.sub,
+            pre: pred,
+            obj: this.props.data.obj,
+            fileId: this.props.fileId,
+            tripleId: this.props.data._id
+        }).done(function (data) {
+            // alert(JSON.stringify(data));
+        });
+        console.log("Predicate changed to: " + pred + " with id: " + this.props.data._id + " fileId: " + this.props.fileId);
+    },
     render: function () {
         var data = this.props.data;
 
@@ -202,9 +268,9 @@ var Triple = React.createClass({
         var obj = data.obj;
 
         return (
-            <div className="row">
+            <div className="row sep">
                 <TripleEntry name={sub}/>
-                <TripleRelationEntry name={pre} hints={this.state.hints}/>
+                <TripleRelationEntry name={pre} hints={this.state.hints} onChange={this.handlePredicateChange}/>
                 <TripleEntry name={obj}/>
             </div>
         );
@@ -220,7 +286,7 @@ var TripleList = React.createClass({
 
         triples.forEach(function (t) {
             tripleViews.push(
-                <Triple data={t}/>
+                <Triple data={t} fileId={self.props.fileId}/>
             );
         });
 
@@ -232,6 +298,7 @@ var TripleList = React.createClass({
 
 var ActionCenter = React.createClass({
     render: function () {
+        var fileId = this.props.fileId;
         var ts = [
             {sub: 'Wheat', pre: 'tastes', obj: 'sweet'},
             {sub: 'Wheat', pre: 'tastes', obj: 'sweet'},
@@ -240,8 +307,11 @@ var ActionCenter = React.createClass({
         return (
             <div className="col-md-9">
                 <div className="row">
-                    <ActionBar/>
-                    <TripleList triples={ts}/>
+                    <ActionBar
+                        filename={this.props.filename}
+                        onNext={this.props.onNext}
+                        onPrevious={this.props.onPrevious}/>
+                    <TripleList triples={this.props.triples} fileId={this.props.fileId}/>
                 </div>
             </div>
         );
@@ -267,7 +337,8 @@ var FileItem = React.createClass({
 
 var FilterableFileList = React.createClass({
     handleFileSelected: function (file) {
-        alert(file);
+        alert(JSON.stringify(file));
+        this.props.onFileSelected(file);
     },
     render: function () {
         var fileList = this.props.files || [];
@@ -313,10 +384,13 @@ var FileList = React.createClass({
     },
     render: function () {
         return (
-            <div className="col-md-3">
-                <input type="text" placeholder="Search files by name" value={this.state.query}
+            <div className="col-md-3 left-panel">
+                <input type="text" className="search" placeholder="Search files by name" value={this.state.query}
                        onChange={this.handleQuery}/>
-                <FilterableFileList files={this.state.files} query={this.state.query}/>
+                <FilterableFileList
+                    files={this.state.files}
+                    query={this.state.query}
+                    onFileSelected={this.props.onFileSelected}/>
             </div>
         );
     }
@@ -325,7 +399,7 @@ var FileList = React.createClass({
 
 var FAB = React.createClass({
     handleClick: function (e) {
-        alert('Hello');
+        window.open("/upload", "_blank");
     },
     render: function () {
         return (
@@ -337,13 +411,69 @@ var FAB = React.createClass({
 });
 
 var Dashboard = React.createClass({
+    getInitialState: function () {
+        return {
+            fileId: '',
+            currentPage: 0,
+            triples: []
+        };
+    },
+    handleFileSelected: function (file) {
+        console.log("fileId: " + file._id);
+        var self = this;
+        this.setState({
+            fileId: file._id,
+            currentPage: 0,
+            filename: file.name
+        });
+
+        $.get('/triples?fileId=' + file._id + '&page=' + 0, function (data) {
+            console.log(data);
+            if (data.code === 0) {
+                self.setState({
+                    currentPage: 1,
+                    triples: data.msg
+                });
+            }
+        });
+    },
+    handleNext: function () {
+        var page = this.state.currentPage;
+        var self = this;
+
+        $.get('/triples?fileId=' + this.state.fileId + '&page=' + page, function (data) {
+            if (data.code === 0) {
+                self.setState({
+                    currentPage: page + 1,
+                    triples: data.msg
+                });
+            }
+        });
+    },
+    handlePrevious: function () {
+        var page = this.state.currentPage > 1 ? this.state.currentPage - 2 : 0;
+        var self = this;
+
+        $.get('/triples?fileId=' + this.state.fileId + '&page=' + page, function (data) {
+            if (data.code === 0) {
+                self.setState({
+                    currentPage: page > 0 ? page - 1 : 1,
+                    triples: data.msg
+                });
+            }
+        });
+    },
     render: function () {
         return (
             <div className="container-fluid">
-                <div className="row">Here comes the header</div>
                 <div className="row">
-                    <FileList/>
-                    <ActionCenter/>
+                    <FileList onFileSelected={this.handleFileSelected}/>
+                    <ActionCenter fileId={this.state.fileId}
+                                  triples={this.state.triples}
+                                  filename={this.state.filename}
+                                  onNext={this.handleNext}
+                                  onPrevious={this.handlePrevious}
+                    />
                 </div>
                 <FAB/>
             </div>
@@ -352,6 +482,7 @@ var Dashboard = React.createClass({
 });
 
 ReactDOM.render(
-    <Dashboard />,
+    <Dashboard />
+    ,
     document.getElementById('content')
 );

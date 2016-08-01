@@ -1,0 +1,659 @@
+Agricultural engineering,Hydrology,Hydrologic cycle
+,,Climatic data
+,,Soil sedimentation
+,,Conservation of soil,Cultivated land
+,,,Forest land
+,,Precipitation,Rainfall measurment,Rainfall depth
+,,,,Rainfall duration
+,,,,Rainfall frequency
+,,,,Rainfall intensity
+,,,Rain gauge,Non-recording rain guage
+,,,,Recording rain guage
+,,,Rain gauge layout,Rain gauge station
+,,,Rainfall data,Missing data
+,,,Rainfall data analysis,Mass rainfall curve
+,,,,Hyetograph
+,,,,Mean precipitation
+,,,,Point rainfall
+,,Abstraction loss,Infiltration loss,Horton's infiltration equation
+,,,,Infiltration index
+,,,,Infiltration measurment
+,,,Evaporation,Evaporation determination
+,,,Evapo transpiration
+,,Stream flow,Stream gauging
+,,,Stream stage measurement
+,,,Stream discharge,Area velocity method
+,,,,Flow measurement
+,,,,Field measurement
+,,,Steam discharge measurement
+,,,Steam discharge relationship,Rating curve
+,,Runoff,Curve number method,Curve number development
+,,,,Antecedent moisture condition
+,,,,Curve number
+,,,Rational method,Runoff coefficient factor
+,,,,Concentration time
+,,Hydrologic event analysis,Frequency analysis
+,,,Frequency distribution model,Gumbel's extreme-value
+,,,,Log-Pearson type-III
+,,,,Log-normal
+,,Hydrograph,Base flow separation,Straight line method
+,,,,Fixed base length method
+,,,,Variable slope method
+,,,,Chow's method
+,,,Unit hydrograph,Synthetic unit hydrograph
+,,,,Dimensionless unit hydrograph
+,,,Distribution graph
+,,Flood routing,Inflow-outflow relationship
+,,,Reservoir routing
+,,,Channel routing,Wedge storage
+,,,,Prism storage
+,,,,Total storage
+,Soil Engineering,Soil erosion,Geologic erosion
+,,,Accelerated erosion
+,,,Soil erosion type,Wind erosion
+,,,,Water erosion,Raindrop erosion
+,,,,,Runoff erosion
+,,,,,Gully erosion
+,,,,,Stream channel erosion,Pedestal erosion
+,,,,,,Pinnacle erosion
+,,,,,,Piping erosion
+,,,,,,Slumping erosion
+,,,,,Land slide
+,,,,,Pipe erosion
+,,,,,Splash erosion
+,,,Soil loss model,Sediment yield model,Routing model
+,,,,Sediment graph,Bed load model
+,,,Soil erosion control,Soil conservation practice,Vegetative practice
+,,,,,Mechanical practice
+,Water harvesting,Water storage structure
+,,Ponds and reservoir
+,,Watershed management,Watershed management programme
+,,,Watershed management method,Forest plantation
+,,,,Grassland management
+,Farm machinery,Tillage implement,Bund former
+,, ,Cultivator,ploughshare
+,, ,,Rotary cultivator
+,,,,Tine
+,,,Harrow,Disc harrow,Single action harrow
+,,,,,Tandom harrow
+,,,,,Offset harrow
+,,,,Spike tooth harrow
+,,,,Spring tooth harrow
+,,,,Aceme harrow
+,,,Hoe,Manual hoe,Naini type hoe
+,,,,,Sharma hand hoe
+,,,,,Singh hand hoe
+,,,,,Wheel hoe
+,,,,,Paddy weedar
+,,,,,Kudaal
+,,,,,Spade
+,,,,,Khurpi
+,,,,Bullock drawn hoe,Akola hoe
+,,,Planker
+,,,Plough,Disc plough
+,,,,Heavy duty plough
+,,,,Mole plough
+,,,,Mouldboard plough
+,,,,Reversible plough
+,,,,Rotary digger
+,,,,Stubble plough
+,,,,Swing plough
+,,,Roller
+,,,Rotavator
+,,,Scarifier
+,,,Subsoiler
+,,Sowing equipment,Seed drill
+,,,Furrow opener
+,,Irrigation equipment,Swing basket
+,,,Dhekli
+,,,Dhone
+,,,Egyptian screw
+,,,Chain pump
+,,,Charsa irrigation
+,,,Reciprocating bucket hoist
+,,,Rahat irrigation
+,,,Reciprocating pump
+,,,Centrifugal pump
+,,,Turbine pump
+,,,Jet pump
+,,,Submersible pump
+,,Harvesting equipment,Harvester,Beet harvester
+,, , ,Fruit harvester
+,, ,,Vegetable harvester
+,, ,Tree shaker
+,, ,Thresher
+,, ,Mower,Conditioner mower
+,, ,,Rotary mower
+,,Plant care equipment,Planter
+,, ,Pruning tool,Pruning saw
+,, ,,Pruning shear
+,, ,Transplanter
+,, ,Tree shelter
+,,,Grafting tool,Grafting knife
+,,Spreader,Fertilizer spreader
+,, ,Manure spreader
+,,Sprinkler
+,,Broadcaster,Seed broadcaster
+,,Spraying equipment,Fan nozzle
+,,,Spray boom
+,, ,Sprayer,Manual operated sprayer,Hand sprayer
+,, ,,,Foot sprayer
+,,,,,Rocker sprayer
+,,,,,Knapsack sprayer
+,,,,,Compression sprayer
+,,,,,Stirrup pump sprayer
+,,,,,Wheel barrow sprayer
+,,,,,Slide pump sprayer
+,,,,Power operated sprayer,Hydraulic sprayer
+,,,,,Hydro-pneumatic sprayer
+,,,,,Blower sprayer
+,,,,,Fog generator
+,,,Duster,Hand duster
+,,,,Power duster
+,,Cleaning equipment,Cleaner
+ ,,Handling machinery,Conveyor,Auger conveyor
+ ,, ,Earthmoving equipment,Bulldozer
+ ,, , ,Excavator, 
+ ,,,,Land leveler
+ ,,, ,Trench cutter
+ ,, ,Loader,Front-end loader
+ ,, , ,Unloader
+ ,, ,Pump,Centrifugal pump
+ ,, , ,Submersible pump
+ ,, , ,Vacuum pump
+ ,, Measuring device,Amylograph
+ ,, ,Analytical kit
+ ,, ,Anemometer
+ ,, ,Caliper
+ ,, ,Calorimeter
+ ,, ,Dendrometer
+ ,, ,Densitometer
+ ,, ,Detector,Sensor,Biosensor
+ ,, ,Dynamometer
+ ,, ,Evaporimeter
+ ,, ,Hydrometer
+ ,, ,Infiltrometer
+ ,, ,Lysimeter
+ ,, ,Moisture meter
+ ,, ,Olfactometer
+ ,, ,Penetrometer
+ ,, ,Permeameter
+ ,, ,Photometer
+ ,, ,Piezometer
+ ,, ,Potentiometer
+ ,, ,Psychrometer
+ ,, ,Pycnometer
+ ,, ,Radar,Ground-penetrating radar
+ ,, , ,Synthetic aperture radar
+,,,Refractometer
+ ,, ,Spectrometers
+ ,, ,Spectrophotometer
+ ,, ,Tensiometer
+ ,, ,Thermometer
+ ,, ,Viscometer
+ ,, ,Weighing device
+ ,,Optical equipment,Camera
+ ,, ,Microscope,Electron microscope
+ ,, , ,Light microscope
+ ,,Processing equipment,Aerator
+ ,, ,Agitator
+ ,, ,Aspirator
+ ,, ,Autoclave
+ ,, ,Bioreactor,Anaerobic digester
+ ,, ,,Microbial fuel cell
+ ,, ,Centrifuge
+ ,, ,Compressor
+ ,, ,Crusher
+ ,, ,Cutter
+ ,, ,Dryer,Batch dryer
+ ,, , ,Continuous dryer
+ ,, , ,Convection dryer
+ ,, , ,Counterflow dryer
+ ,, , ,Evaporator
+ ,, , ,Freeze dryer
+ ,, , ,Grain dryer
+ ,, , ,Roller dryer
+ ,, , ,Rotary dryer
+,,,,Tray dryer
+,,,,Spray dryer
+,,,,Tower type dryer
+,,,,Sack type dryer
+,,,,Continuous gravity flow dryer
+ ,, ,Extractor
+ ,, ,Fermenter
+ ,, ,Grinder
+ ,, ,Heat processing equipment,Boiler 
+ ,, , ,Kiln
+ ,, , ,Oven,Convection oven
+ ,, , ,,Microwave oven
+ ,, , ,Pasteurizer
+ ,, , ,Steamer
+ ,, ,Homogenizer
+ ,, ,Mixer,Blender
+ ,, ,Separator,Cyclone separator
+ ,, ,Sterilizer
+ ,,Research equipment,Experimental rig
+ ,, ,Growth chamber
+ ,, ,Rainfall simulator
+ ,, ,Wind tunnel
+ ,,Safety equipment,Alarm system
+,,Storage technology,Modified atmosphere storage
+ ,,,Controlled atmosphere storage
+ ,, ,Storage condition,Cold storage,Frozen storage
+ ,, ,,Storage temperature
+ ,, , ,Storage time
+,,,Grain storage,Grain elevator
+,,,Storage structure,Bag 
+,,,,Bin
+,,,,Cellar
+,,,,Large scale storage structure
+,,,,Modern storage structure,Zero energy cool chamber 
+,,,,Pit
+,,,,Silo,Horizontal silo
+,,,,,Tower silo
+,,,,,Trench silo
+,,,,Storage container,Tank
+,,,,,Barrel
+,,,,,Bottle
+,,,,,Box
+,,,,,Bucket
+,,,,,Can
+,,,,,Crate
+,,,,,Jar
+,,,,Storehouse,Cold store
+,,,,Traditional storage structure
+,,Pest control equipment,Bed net
+,, ,Fumigation equipment
+,, ,Mosquito net
+,, ,Scarer
+,, ,Trap
+,, , ,Bait trap
+,, , ,Electrocuting trap
+,, , ,Insect trap
+,, , , ,Emergence trap
+,, , , ,Funnel trap
+,, , , ,Light trap
+,, , , ,Malaise trap
+,, , , ,Ovitrap
+,, , , ,Pheromone trap
+,, , , ,Pitfall trap
+,, , , ,Sticky trap
+,, , , ,Suction trap
+,, , , ,Water trap
+,Farm power,Farm power source,Human power
+,,,Animal power
+,,,Mechanical power,Tractor
+,,,,Power tiller
+,,,,Engine,Internal combustion engine
+,,,,,External combustion engine
+,,,Electric power,Electric Motor,Alternating current motor
+,,,,,Direct current motor
+
+,,,Renewable energy,Biogas
+,,,,Solar energy
+,,,,Wind energy
+,,Power measurement,Horsepower,Indicated horsepower (IHP)
+,,,,Brake horsepower (BHP)
+,,,,Frictional horsepower (FHP)
+,,,,Drawbar horsepower (DBHP)
+,,,,Rated horsepower
+,,,Mechanical efficiency
+,,,Power transmission
+,Surveying,Chain survey,Engineer's chain
+,,,Gunter's chain
+,,,Metric chain
+,,,Tape
+,,,Arrow
+,,,Ranging rod
+,,,Cross-staff
+,,,Optical square
+,,,Ranging,Direct ranging
+,,,,Indirect ranging
+,,,Base line
+,,,Offset
+,,Compass traversing,Closed traversing
+,,,Open traversing
+,,Plain table survey
+,,Level survey
+,,Theodolite survey
+,,Tacheometric survey
+,,Photographic survey
+,,Ariel survey
+,Protected structure,Agricultural structure and facility,Greenhouse,Plastic greenhouse
+,,Hydraulic structure,Breakwater
+,,,Dam,Earth dam
+,,,Embankment
+,,,Hydraulic ram
+,,,Water reservoir,Artificial lake
+,,,Weir
+,,,Well
+,,,Canal,Irrigation canal
+,,,,Navigable canal
+,,,,Drainage canal
+,,Manmade structure,Farm building,Barn
+,,,,Mushroom house
+,,,Industrial building
+,,,Mill,Water mill
+,,,,Windmill
+ Agricultural engineering,,,, Bits
+ Agriculture equipment
+ Animal care equipment
+ Bridles,Headgear for a horse
+ Collars,Neckband
+ Ear tags
+ Halters,Headgear for a horse
+ Harness,Stable gear,Saddlery
+ Raceways,Racetrack,Racecourse
+ Saddles
+ Animal feeding equipment, 
+ Drinkers, 
+ Nipple drinkers, 
+ Water troughs, , 
+ Feeders, , 
+ Automated feeders, , 
+ Calf feeders, , 
+ Feed troughs, , 
+ Fish feeders
+ Mangers,Trough,Container
+ Pig feeders
+ Self-feeders
+ Beekeeping equipment, 
+Hive equipment
+Bee brushes
+Bee smokers
+Bee veils
+Fixed combs
+Hive frames
+Honey extractors
+Pollen trap
+Queen bee excluders
+Supers
+Bee stand
+Uncapping knife, 
+Swarm catcher, 
+ Dairy equipment, 
+ Milking equipment, 
+ Milking machines, 
+ Teatcup liners, 
+ Teatcups, 
+ Forestry equipment, 
+ Chipping headrig, 
+ Logging equipment, , 
+ Forwarders, , 
+ Logging shears, , 
+ Skidding equipment, , 
+ Harvesting equipment, , 
+ Balers, , 
+ Roll balers, , 
+ Harvesters, , 
+ Beet harvesters, 
+ Combine harvesters
+ Forage harvesters
+ Fruit harvesters
+ Sugarcane harvesters
+ Vegetable harvesters
+ Tree shakers, 
+ Threshers,Thrashers
+ Mowers,Lawn mower
+ Conditioner mowers, 
+ Rotary mowers, 
+ Plant care equipment, 
+ Planters
+ Pruning tools
+ Pruning saws
+ Pruning shears
+ Tree shelters
+ Tillage implements
+ Cultivators,Tillar
+ Harrows,Plow,Plough
+ Plows
+ Spreaders
+ Fertilizer spreaders
+ Manure spreaders
+ Sprinklers, 
+ Broadcasters, 
+ Seed broadcasters, 
+ Spraying equipment, 
+ Fan nozzles, 
+ Spray booms
+ Sprayers
+ Air-assisted sprayers
+ Portable sprayers,,,, 
+ Knapsack sprayers
+ Cleaning equipment
+ Cleaners
+ Handling machinery
+ Conveyors
+ Auger conveyors
+ Earthmoving equipment
+ Bulldozers
+ Excavators
+ Land levelers, 
+ Trench cutters, 
+ Loaders, 
+ Front-end loaders, 
+ Unloaders, 
+ Pumps, 
+ Centrifugal pumps
+ Milk pumps
+ Slurry pumps
+ Submersible pumps
+ Vacuum pumps
+ Kitchen equipment
+ Cooking stoves
+ Cooking utensils
+ Cookware
+ Measuring devices
+ Amylographs
+ Analytical kits
+ Anemometers,Wind guage,Wind gage
+ Calipers,Calliper
+ Calorimeters
+ Dendrometers
+ Densitometers,Densimeter
+ Detectors
+ Sensors
+ Biosensors
+ Dynamometers,Ergometer
+ Evaporimeters
+ Gauges,Gage
+ Pressure gauges
+ Rain gauges, 
+ Vacuum gauges, 
+ Hydrometers, 
+ Infiltrometers, 
+ Lysimeters, 
+ Flowmeters, 
+ Moisture meters, 
+ Olfactometers, 
+ Penetrometers, 
+ Permeameters, 
+ Photometers,Light meter
+ Piezometers, 
+ Porometers, 
+ Potentiometers, 
+ Psychrometers, 
+ Pycnometers, 
+ Radar, 
+ Ground-penetrating radar, 
+ Synthetic aperture radar, 
+ Radiometers, 
+ Spectroradiometers, 
+ Spectrometers, 
+ Spectrophotometers, 
+ Surveying instruments, 
+ Tensiometers, 
+ Thermocouples
+ Thermometers
+ Viscometers,Viscosimeter
+ Weighing devices
+Veterinary equipment
+ Bandages,Medical dressing
+ Cannulas,Tube,Tubing
+ Catheters,Tube,Tubing
+ Contraceptives
+ Dental equipment
+ Prostheses,Restorative
+ Surgical equipment
+ Tourniquets
+ Optical equipment
+ Cameras
+ Microscopes
+ Electron microscopes
+ Scanning electron microscopes
+ Transmission electron microscopes
+ Light microscopes
+ Processing equipment
+ Aerators, 
+ Agitators, 
+ Aspirators, 
+ Autoclaves, 
+ Bioreactors, 
+ Anaerobic digesters
+ Microbial fuel cells, 
+ Centrifuges, 
+ Choppers, 
+ Compressors, 
+ Crushers, 
+ Cutters, 
+ Dryers, 
+ Batch dryers, 
+ Continuous dryers, 
+ Convection dryers, 
+ Counterflow dryers, 
+ Evaporators, 
+ Forage dryers, 
+ Freeze dryers, 
+ Grain dryers, 
+ Roller dryers, 
+ Rotary dryers, 
+ Extractors, 
+ Feed processing equipment, 
+ Fermenters, 
+ Fluidized beds, 
+ Food processing equipment, 
+ Grinders, 
+ Heat processing equipment, 
+ Boilers (processing), 
+ Kilns,Oven
+ Ovens, 
+ Convection ovens, 
+ Microwave ovens, 
+ Pasteurizers, 
+ Steamers, 
+ Homogenizers, 
+ Knives, 
+ Mixers
+ Blenders
+ Separators
+ Cyclone separators
+ Sterilizers
+ Wood chippers
+ Recording equipment
+ Audio cassette recorders
+ Tape recorders
+ Video recorders
+ Research equipment
+ Experimental rigs
+ Growth chambers
+ Rainfall simulators
+ Test rigs
+ Wind tunnels
+ Safety equipment
+ Alarm systems
+ Storage technology
+Controlled atmosphere storage
+ Storage conditions
+ Cold storage
+ Frozen storage
+ Storage temperature
+ Storage time
+ Grain storage
+ Grain elevators
+ Containers
+ Bags (storage)
+ Barrels,Cask,Vessel
+ Bins (storage)
+ Bottles
+ Boxes
+ Buckets
+ Cans
+ Crates
+ Jars
+ Lids
+ Pouches
+ Stoppers
+ Tanks
+ Aquaculture tanks
+ Milk tanks
+ Trays
+ Agricultural structures and facilities
+ Barns
+ Greenhouses
+ Plastic greenhouses
+ Milking parlors
+ Herringbone milking parlors
+ Silos
+ Bunker silos
+ Meat packing plants
+ Slaughterhouses
+ Manmade structures
+ Hydraulic structures
+ Canals (waterways)
+ dam (hydrology)
+ Weirs
+ Wells
+ Windmills
+ Engines
+ Diesel engines
+ Engine parts
+ Gas engines
+ Spark ignition engines
+ Steam engines
+ Turbine engines
+ Motors
+ Electric motors
+ Hydraulic motors
+ Meteorological instruments
+ Pest control equipment
+ Bed nets
+ Flea collars
+ Fumigation equipment
+ Mosquito nets
+ Scarers
+ trap,,, 
+ Bait traps
+ Electrocuting traps
+ Insect traps
+ Emergence traps
+ Funnel traps
+ Light traps
+ Blacklight traps
+ CDC light traps,,,, 
+ Malaise traps
+ Ovitraps
+ Pheromone traps
+ Pitfall traps
+ Sticky traps
+ Suction traps
+ Water traps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

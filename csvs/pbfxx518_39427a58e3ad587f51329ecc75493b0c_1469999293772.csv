@@ -1,0 +1,398 @@
+Environmental science,Atmosphere,Gas,Major gas,Nittrogen
+,,,,Oxygen
+,,,Trace gases,Argon
+,,,,Carbon dioxide
+,,,,Methane
+,,,,Nitrous oxide
+,,,,Ozone
+,,,,Sulphur dioxide
+,,Atmosphere layer,Troposphere
+,,,Stratosphere 
+,,,Mesosphere
+,,,Ozonosphere
+,,,Thermosphere
+,Atmospheric deposition,Acid deposition
+, ,Dry deposition
+, ,Wet deposition
+,Global climate change,Climate change,Global warming
+,,Greenhouse effect
+,,Greenhouse gas
+, ,Ozone depletion
+,Environment,Aquatic environment
+,,Natural environment
+,,Riparian zone
+,,Environmental factor,Aerobic condition
+,,,Ambient temperature
+, ,,Anaerobic condition
+, , ,Aseptic condition
+, , ,Dry environmental condition
+, , ,Edaphic factor
+, , ,Mesic condition
+, , ,Photoperiod
+, , ,Wet environmental condition
+,Environmental program,Conservation program,World conservation strategy
+,,,National conservation strategy
+,,,National wasteland development board
+, ,,Indian board of wildlife
+,,,Earth summit
+,,,Chipko movement
+,,National water quality assessment program
+,Environmental degradation,Algal bloom
+, ,Deforestation
+, ,Desertification
+, ,Eutrophication
+, ,Fouling
+, ,Habitat destruction
+, ,Habitat fragmentation
+, ,Pollution,Air pollution
+,,,Marine pollution
+
+, , ,Nonpoint source pollution
+, , ,Point source pollution
+, , ,Pollutant,Effluent,Industrial effluent
+, , , , ,Sewage effluent
+, , , , ,Silage effluent
+, , , ,Emission,Dust emission
+, , , , ,Gas emission
+, , , , ,Heat emission
+, , , , ,Odor emission
+, , , , ,Particulate emission
+, , ,Pollution load,Biochemical oxygen demand
+, , , ,Chemical oxygen demand
+, , , ,Total maximum daily load
+, , ,Sediment contamination
+, , ,Water pollution,Groundwater contamination
+,Environmental hazard,Biodiversity loss
+,Environmental impact,Environmenatal Impact Assesment
+,Environmental management,Environmental assessment,Biological assessment
+, ,Environmental audit
+, ,Environmental impact statement
+, ,Environmental indicator
+, ,Environmental monitoring
+, ,Environmental protection,Pollution control,Dust control
+, , , ,Odor control
+, , , ,Remediation,Bioremediation,Phytoremediation
+,,,Environment protection act,Water Pollution act
+,,,,The Air act
+,,,,Environmental Protection act
+, , ,Riverbank protection
+,,Waste management,Solid waste management
+,,,Wasteland reclamation
+,Environmental quality,Air quality
+, ,Indoor environmental quality
+,Natural resource managemnt  ,Nonrenewable resource,Land resource,Conservation area
+,,, ,Land,Agricultural land,Farm area
+,,, , , ,Orchard
+,,, , , ,Pasture
+,,, , , ,Plantation
+,,, ,,Arid land
+,,, ,,Grazing land
+,,, , ,Private land
+,,, , ,Public land
+,,, , ,Rangeland
+,,, , ,Tribal land
+,,, , ,Wasteland
+,,, ,Park,National park
+,,, ,Residential area
+,,, ,Rural area
+,,, ,Suburban area
+,,, ,Urban area
+,,, ,Watershed,Agricultural watershed
+,,, , ,Forested watershed
+,,, , ,Subwatershed
+,,, ,Wetlands,Constructed wetland
+,,, , ,Seasonal wetland
+,    ,,Energy resource,Electric power,Hydroelectric power
+,    ,, ,Fuel,Alcohol fuel
+,    ,, , ,Alternative fuel
+,    ,, , ,Biofuel,Biodiesel,Jatropha species
+,,,,,,,Jojoba
+,,,,,,,Kenaf
+,,,,,,,Moringa oleifera
+,,,,,,,Citrullus colocynthis
+,    ,, , ,Diesel fuel
+,    ,, , ,Fossil fuel,Coal
+,    ,, , , ,Natural gas
+,    ,, , , ,Petroleum
+,    ,, , ,Fuel oil
+,    ,, , ,Wood
+,    ,, , ,Kerosene
+,    ,, , ,Liquid petroleum gas
+,    ,, ,Renewable energy source,Bioenergy
+,    ,, ,,Geothermal energy
+,    ,, , ,Solar energy
+,    ,, , ,Wind power
+,    ,Renewable resource,Biomass,Aboveground biomass
+,    , ,,Belowground biomass
+,    , , ,Biomass production
+,    ,,Water resource,Aquifer
+,    ,, ,Drinking water
+,    ,, ,Inland water,Lake
+,    ,, ,,Pond
+,    ,, , ,River
+,    ,, , ,Stream
+,    ,, ,Ocean
+,    ,, ,Reservoir
+,,, ,Water supply
+,,In-situ resource conservation,Biosphere reserve
+,,,Botanical garden
+
+,,Ex-situ resource conservation
+,Ecosystem,Ecosystem type,Ocean ecosystem
+,,,Grassland ecosystem
+,,,Desert ecosystem
+,,,Forest ecosystem
+,,,Cropland ecosystem
+,,Food chain,Trophic level
+,,Ecological pyramid,Pyramid of number
+,,,Pyramid of biomass
+,,Biogeochemical cycle,Hydrological cycle
+,,,Gaseous cycle,Oxygen cycle
+,,,,Nitrogen cycle
+,,,,Carbon cycle
+,,,Sedimentary cycle,Phosphorus cycle
+,,,,Sulphur cycle
+,,Agroecosystem
+,Climatology,Agroclimatology
+,,Bioclimatology
+,,Physiography
+,,Climate,Agro climatic zone,Western Himalayan Region
+,,,,Eastern Himalayan Region
+,,,,Lower Ganetic Plain
+,,,,Middle Gangetic Plain
+,,,,Upper Gangetic Plain
+,,,,Transgangetic Plain
+,,,,Eastern Plateau & Hill
+,,,,Central Plateau & Hill
+,,,,Western Plateau & Hill
+,,,,Southern Plateau & Hill
+,,,,East Coast Plain
+,,,,West Coast Plains and Ghat
+,,,,Gujarat Plains & Hill
+,,,,Western Dry Region
+,,,,Island Region
+,,,Climate type,Arid
+,,,,Semi arid
+,,,,Dry sub humid
+,,,,Moist sub humid
+,,,,Humid
+,,,,Per humid
+,,,Climatic factor,Water
+,,,,Temperature
+,,,,Light
+,,,Climatic zone,Arid zone
+,,, ,Cold zone,Taiga
+,,,,,Tundra
+,,, ,Humid zone
+,,, ,Semi arid zone
+,,, ,Subhumid zone
+,,, ,Subtropics zone
+,,, ,Temperate zone
+,,, ,Tropic zone
+,,Climate model
+, ,Microclimate
+, ,Season,Autumn season
+, , ,Cold season
+, , ,Dry season
+, , ,Growing season
+, , ,Monsoon season
+, , ,Spring season
+, , ,Summer season
+, , ,Warm season
+, , ,Wet season
+, , ,Winter season
+, ,Weather,Atmospheric disturbance,Atmospheric depression,EL Nino
+,,,,,LA Nina
+,, ,,Atmospheric turbulence
+,,,,Lightning
+,,,,Storm,Cyclone
+,,,,,Dust storm
+,,,,,Thunderstorm
+,,,,,Winter storm
+,,,,Whirlwind,Dust devil
+,,,,,Waterspout
+,,,Weather hazard,Drought
+,,,,Fire weather
+,,,,Flood
+,, ,Meteorological parameter,Atmospheric pressure
+,, , ,Dew
+,, , ,Dewpoint
+,, , ,Fog,Upslope fog
+,, , ,,Advection fog
+,,,,,Ground fog
+,,,,Mist
+,,,,Frost
+,,,,Heat sum
+,, , ,Humidity,Relative humidity
+,,,,,Absolute humidity
+,,,,Wind,Wind direction
+,,,, ,Wind speed
+,,,,Atmospheric precipitation,Artificial precipitation
+,, , ,,Hydroclimatology
+,,,,,Hail
+,,,,,Rain,Sleet
+,, , ,,,Mixed precipitation
+,, , ,,,Simulated rainfall
+,,,,,,Cloudburst
+,,,,,Snow
+,,,,,Stemflow
+,,,,,Acid rain
+,, , ,Snowpack,Solar radiation,Insolation
+,,,,,,Albedo
+,, , ,Cloud,Wall cloud
+,,,,,Low cloud
+,,,,,Middle cloud
+, Meteorology,Agrometeorology, Weather forecasting,Weather advisory
+,,,,Weather forecast
+ , , Weather station
+ Environmental science
+ Environment,Environs
+Aquatic environment
+Natural environment
+Riparian zone
+Economic environment 
+Sociocultural environment
+ Environmental factor
+ Aerobic condition
+ Ambient temperature
+ Anaerobic condition
+ Aseptic condition,Sterile condition
+ Dry environmental condition
+ Edaphic factor,Soil factor
+ Mesic condition,Mesonic condition
+ Photoperiod
+ Wet environmental condition
+ Environmental program
+ Conservation program
+ National water quality assessment program
+ Environmental degradation
+ Algal blooms
+ Deforestation,Disforestation,Denudation
+ Desertification
+ Eutrophication
+ Fouling
+ Habitat destruction
+ Habitat fragmentation
+ Oil spills
+ Pollution,Contamination
+ Air pollution
+ Noise pollution
+ Nonpoint source pollution
+ Point source pollution
+ Pollutants
+ Effluents,Outflowing
+ Industrial effluents
+ Sewage effluent
+ Silage effluent
+ Emissions
+ Dust emissions
+ Gas emissions
+ Heat emissions
+ Odor emissions
+ Particulate emissions
+ Nonaqueous phase liquids
+ Dense nonaqueous phase liquids
+ Pollution load
+ Biochemical oxygen demand
+ Chemical oxygen demand
+ Total maximum daily load, , 
+ Sediment contamination, , 
+ Water pollution, , 
+ Groundwater contamination
+ Total maximum daily load
+ Sediment contamination
+ Water pollution
+ Groundwater contamination
+ Environmental fate
+ Environmental hazards
+ Environmental impact
+ Environmental management
+ Environmental assessment
+ Biological assessment
+ Environmental audits
+ Environmental impact statements
+ Environmental indicators
+ Environmental monitoring
+ Environmental protection
+ Pollution control
+ Dust control
+ Odor control
+ Remediation,Redress,Rectification
+ Riverbank protection
+ Waste management
+ Environmental quality
+ Air quality
+ Indoor environmental quality
+Natural Resources managemnt  
+ Nonrenewable resources
+ Land resources
+ Athletic fields
+ Conservation areas
+ Land
+ Abandoned land
+ Brownfields
+ Agricultural land
+ Farm area
+ Orchards,woodlet,plantation
+ Pastures,Pastureland,Grazingland,grassland,Lea,Ley
+ Plantations
+ Arid lands,,, 
+ Grazing lands,,, 
+ Military lands,,, 
+ Private lands,,, 
+ Public lands,,, 
+ Rangelands,,, 
+ Tribal lands
+ Wastelands,Barrenland
+ Parks,,, 
+ National parks,,, 
+ Residential areas,,, 
+ Rural areas,,, 
+ Suburban areas,,, 
+ Urban areas,,, 
+ Watersheds,,, 
+ Agricultural watersheds,,, 
+ Forested watersheds,,, 
+ Subwatersheds
+ Wetlands,Marsh,swamp, bog,slough,fen, quagmire ,morass
+ Constructed wetlands,,, 
+ Seasonal wetlands
+ Energy resources
+ Electric power,    
+ Hydroelectric power
+ Fuels,    ,, 
+ Alcohol fuels,    ,, 
+ Alternative fuels,    ,, 
+ Biofuels,Bio-fuels
+ Biodiesel,Bio-diesel,, 
+ Diesel fuel,Diesel-fuel,, 
+ Fossil fuels,Fossil-fuel,, 
+ Coal,    ,, 
+ Natural gas
+ Petroleum
+ Fuel oils,    ,, 
+ Wood,    ,, 
+ Kerosene,Kerosine,Lamp oil, 
+ Liquid petroleum gas,    ,, 
+ Nuclear power,    ,, 
+ Renewable energy sources,    ,, 
+ Bioenergy,Bio-energy,, 
+ Geothermal energy,    ,, 
+ Solar energy,Solar power
+ Wind power,    
+ Renewable resources,, 
+ Biomass,, 
+ Aboveground biomass
+ Belowground biomass
+ Biomass production
+ Water resources
+ Aquifers
+ Drinking water
+ Inland waters
+ Lakes
+ Ponds
+ Rivers
+ Streams
+ Oceans
+ Reservoirs,Source
+ Water supply

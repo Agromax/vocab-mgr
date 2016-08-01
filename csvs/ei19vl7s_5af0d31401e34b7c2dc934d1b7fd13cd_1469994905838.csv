@@ -1,0 +1,404 @@
+Postharvest Management,Postharvest Technology,Postharvest Equipment,Cleaning Equipment
+,,,Processing equipment
+,,Postharvest Operations,Postharvest decay
+,,,Drying,Natural drying,Sun drying
+,,,,,Dehydration
+,,,,Drying process,Constant rate period
+,,,,,Failing rate period
+,,,,Drying methods,Unheated air drying method
+,,,,,Unheated air method with additional heat
+,,,,,Heated air drying
+,,,,,Deep bed drying method
+,,,,,Thin layer drying method
+,,,Aeration system
+,,,Size reduction
+,,,Cleaning
+,,,Separation
+,,,Evaporation
+,,,Extraction
+,,,Fractionation
+,,,Handling
+,,,Isolation
+,,,Food Labelling,Labelling Controls
+,,,,Product Labelling,Nutrition labelling
+,,,Food Packaging,Bagging
+,,,,Asceptic packing
+,,,,Gas packing
+,,,,Vaccum packaging
+,,,,Filling
+,,,,Wrapping,Shrink Wrapping
+,,,Food Preservation,Heat preservation,Blanching
+,,,,,Canning
+,,,,,Bottling
+,,,,,Pasteurization,Flash pasteurization
+,,,,,Sterilization,Ulta heat Treatment
+,,,,Low temperature preservation,Low temperature storage
+,,,,,Freezing
+,,,,,Refrigeration
+,,,,Moisture removal
+,,,,Preservation with sugar,Jam 
+,,,,,Jelly
+,,,,,Marmalade
+,,,,,Candied fruit
+,,,,,Fruit syrup
+,,,,Preservation by salt,Pickle
+,,,,,Brining
+,,,,Preservation by food additive,Sugar
+,,,,,Spice
+,,,,,Acid
+,,,,,Essential oil
+,,,,,Buffer
+,,,,,Bleaching agent
+,,,,,Emulsifier
+,,,,,Thickening agent
+,,,,,Food flavour
+,,,,,Preservative
+,,,,,Antioxidant
+,,,,,Clarifying agent 
+,,,,,Humectant
+,,,,,Chemical preservative,Potassium metabisulphite
+,,,,Preservation by fermentation,Alcoholic fermentation
+,,,,,Acetic fermentation
+,,,,,Lactic fermentation
+,,,,Cold sterilization ,Filtration
+,,,,,Irradiation
+,,,Food Processing,Carbonation
+,,,,Chlorination
+,,,,Detoxification
+,,,,Emulsifying
+,,,,Instantizing
+,,,,Macerating
+,,,,Marinating
+,,,,Melting
+,,,,Purification,Decolorization
+,,,,Soaking
+,,,,Tenderizing
+,,,,Thawing
+,,,,Whipping
+,,,Sieving
+,,,Winnowing
+,,,Transportation ,Air transportation 
+,,,,Container transport 
+,,,,Freight 
+,,,,Land transportation ,Rail transportation 
+,,,,Public transportation 
+,,,,Water transportation ,Sea transportation 
+,,Food Processing Aid,Anticaking Agent
+,,,Emulsifier
+,,,Flavouring
+,,,Sweetener
+,,,Yeast,Yeast Extract
+,,,Processing fan,Axial flow fan,Impeller fans
+,,,,,Tube axial flow fan
+,,,,,Backward blade axial fans
+,,,,Axial flow centrifugal fans,Forward curved blade fans
+,,,,,Straight blade  centrifugal fans
+,,,,,Backward  curved blade fans
+,,Food Storage,Storage Structure,Cold Storage,Frozen storage
+,,,,Controlled atmosphere storage
+,,,,Underground Storage
+,,,,Cool dry room storage
+,,,,Pit storage
+,,,,Onion storage
+,,,,Zero energy cool chamber
+,,,,CPRI cool home storage
+,,,,AADF-CIP design cool home
+,,,,Force evaporation cool store
+,,,Storage conditions,Storage temperature
+,,,,Storage time
+,,,Crop Storage
+,,,Farm Storage
+,,,Food storage
+,,,Seed Storage
+,,Nutrient Improvement
+,,Food Purity
+,,Food Quality,Keeping quality
+,,,Processing quality
+,,,Product quality
+,,,Protein quality
+,,,Postharvest control
+,,,Quality control
+,,,Quality standard
+,,Agricultural Product
+,Food Technology,Food aid,Food additive
+,,,Food colourant
+,,Food legislation,Food policy
+,,Food security,Food fortification
+,,,Food safety
+,,,Food supplimentation
+,,,Food supply
+,,Food standard,Food contamination
+,,,Food enrichment
+,,,Food hygiene
+,,,Food inspection
+,,,Nutritional status
+,,Food,Dietetic food
+,,,Fast food
+,,,Fermented food
+,,,Genetically modified food
+,,,Instant food
+,,,Novel food
+,,,Organic food
+,,,Prepared food
+,,,Processed food
+,,,Refrigerated food
+,,,Seafood
+,,,Snack food
+,Value added product,Artifical product
+,,Bakery product,Beer
+,,Bakery product,Beverage
+,,,Brewing
+,,,Confectionery
+,,,Malt
+,,,Vinegar
+,,,Wine
+,,Bioproduct
+,,Perishable product
+,,Plant product
+,,,Fruit product,Chocolate
+,,,,Cocoa powder
+,,,,Dessert
+,,,,Fruit juice
+,,,,Fruit pulp
+,,,,Jam
+,,,,Pickle
+,,,,Raisin
+,,,,Soup
+,,,Processed Product,Canned product
+,,,,Dried product
+,,,,Frozen product
+,,,Spice,Condiment
+,,,Vegetable Product,Salad
+,,,,Vegetable
+,Plant byproduct
+,Post harvest loss,Preharvest factor,Postharvest  loss percentage
+,,,Selection of variety
+,,,Cultural practice
+,,,Preharvest treatment
+,,,Maturity ,Maturity index,Peel colour
+,,,,,Pulp colour
+,,,,,Size
+,,,,,Shape
+,,,,,Drying of plant part
+,,,,,Surface characteristic
+,,,,,Ease of separation
+,,,,,Ease of snapping
+,,,,,Juiciness
+,,,,,Tapping
+,,,,,Solidity
+,,,,,Netting
+,,,,,Aroma
+,,,,,Specific gravity
+,,,,,Firmness
+,,,,,Sugar content
+,,,,,Total soluble solids
+,,,,,Acidity
+,,,,,Starch index
+,,,,,Juice content
+,,,,,Heat unit
+,,,,,Days from anthesis
+,,,,,Days from full bloom
+,,,,,Days from fruit set
+,,,Growing condition
+,,,Mechanical injury
+,,,Bacterial infection
+,,,Fungal infection
+,,,Moisture content
+,,,Water quality
+,,,Ethylene gas
+,,,Heat damage
+,,Post harvest factor
+,,,Curing
+,,,Degreening
+,,,Precooling
+,,,Washing
+,,,Drying
+,,,Sorting
+,,,Grading
+,,,Disinfestation
+,,,Postharvest treatment
+,,,Waxing
+,,,Ripening
+,,,Prepackaging
+,,,Packaging
+,,,Pelletization
+,,,Storage
+,,,Irradiation
+,,,Harvesting stage
+,,,Water relation
+,,,Respiration rate
+,,,Relative humidity
+,,,Growth regulator
+,,,Preservative solution,Anti ehylene compound,Silver thiosulphate
+,,,,Hydrated preservative solution
+,,,,Sucrose
+,,,,Slow release chlorine compound,Sodium dichloroisocyanurate
+,,,,,1,3,-dichloro-5,5-dimethyl-thydanthon
+Postharvest Management
+Postharvest Technology
+Agricultural Products
+Postharvest Equipment
+Seed cleaning
+Cleaning Equipment
+Fermentation Equipments
+Packaging Equipment
+Refrigeration Equipment
+Seed Boxes
+Postharvest Operations
+Postharvest decay
+Curing (processing)
+Drying
+Evaporating
+Extraction
+Fractionation
+Handling
+Isolation
+Labelling
+Natural drying
+Packaging
+Labelling Controls
+Product Labelling
+Bagging (Packaging)
+Wrapping
+Preservation
+Blanching
+Bottling
+Brining
+Canning
+Distilling
+Pasteurization
+Peeling
+Pickling
+Sterilization
+UHT Treatment
+Processing
+Carbonation
+Chlorination
+Detoxification
+Emulsifying
+Hydration
+Instantizing
+Macerating
+Marinating
+Melting
+Milling
+Husking
+Polishing
+Decolorization
+Purification
+Retting
+Soaking
+Tenderizing
+Thawing
+Whipping
+Sieving
+Winnowing
+Processig Aids
+Anticaking Agents
+Emulsifiers
+Flavourings
+Sweeteners
+Yeasts
+Yeast Extracts
+Storage
+Storage Structures
+Cold Storage
+Refrigeration
+Underground Storage
+Crop Storage
+Farm Storage
+Food storage
+Seed Storage
+Nutrient Improvement
+Purity
+Quality
+Keeping Quality
+Processing Quality
+Product Quality
+Protein Quality
+Transporting Quality
+Postharvest Control
+Quality Controls
+Food Technology
+Food aid
+Food additives
+Food Colourants
+Food policies
+Food legislation
+Food Preservation
+Food security
+Food Fortification
+Food safety
+Food Supplimentation
+Food supply
+Food Standards
+Food Contamination
+Food Enrichment
+Food Hygiene
+Food Inspection
+Nutritional status
+Foods
+Dietetic Foods
+Fast Food
+Fermented Foods
+Genetically Modified Foods
+Instant Foods
+Novel Foods
+Organic Foods
+Prepared Foods
+Processed Foods
+Refrigerated Foods
+Seafoods
+Snack Foods
+Soyfoods
+Value Added Product
+Artifical Products
+Bakery Products
+Beers
+Beverages
+Brewing
+Confectionery
+Malt
+Vinegar
+Wines
+Bioproducts
+Perishable Products
+Plant Products
+Cereals
+Coarse Grains
+Grain
+Millets
+Pseudo cereals
+Fruit Products
+Chocolate
+Cocoa Powder
+Desserts
+Fruit Juices
+Fruit Pulps
+Jams
+Pickles
+Raisins
+Soups
+Flax
+Legumes
+Nut Products
+Oilseeds
+Plant Extracts
+Processed Products
+Canned Products
+Dried Products
+Frozen Products
+Processed Plant Products
+Plant Fibers
+Synthetic Fibres
+Condiments
+Spices
+Starch Products
+Vegetable Products
+Salads
+Vegetables
+Stimulants
+Cigarettes
+Conflakes
+Flours
+Sugar

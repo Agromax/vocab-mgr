@@ -1,0 +1,951 @@
+Biochemistry & Plant physiology,Biochemical compound,Amino acid,Essential amino acid,Histadine
+,,,,Isoleucine
+,,,,Leucine
+,,,,Lysine
+,,,,Methionine
+,,,,Phenylalanine
+,,,,Threonine
+,,,,Tryptophan
+,,,,Valine
+,,,Non-essential amino acid,Arginine
+,,,,Alanine
+,,,,Asparagine
+,,,,Aspartate
+,,,,Cysteine
+,,,,Glutamate
+,,,,Glutamine
+,,,,Glycine
+,,,,Proline
+,,,,Serine
+,,,,Tyrosine
+, , ,Limiting amino acid
+, , ,Nonprotein amino acid
+, , ,Sulfur amino acid
+, ,Peptide,Antimicrobial peptide
+, , ,Cyclic peptide, Cyclosporin
+, , ,Glycopeptide
+, , ,Oligopeptide,Dipeptide
+, , , ,Tripeptide
+, , ,Phytochelatin
+, , ,Polyglutamic acid
+, , ,Polypeptide
+, , ,Synthetic peptide
+, ,Protein,Antimicrobial protein,Antibacterial protein
+, , , ,Antifungal protein
+, , , ,Antiviral protein
+, , ,Binding protein,Acyl carrier protein
+, , , ,Biotin-binding protein
+, , , ,Calcium-binding protein
+, , , ,DNA-binding protein
+, , , ,Fatty acid-binding protein
+, , , ,Folate-binding protein
+, , , ,Retinol-binding protein
+, , , ,RNA-binding protein
+, , , ,Transport protein,Ion channel,Calcium channel
+, , , , ,,Chloride channel
+, , , , , ,Potassium channel
+, , , , , ,Sodium channel
+, , , , ,Transporter,Amino acid transporter
+, , , , , ,Antiporter
+, , , , , ,Glucose transporter
+, , , , , ,Symporter
+, , 
+, , ,Conjugated protein,Flavoprotein
+, , , ,Lipoprotein,Apolipoprotein
+, , , , ,Chylomicron
+, , , , ,Lipophorin
+, , , ,Metalloprotein,Cytochrome
+, , , , ,Ferredoxin
+, , , , ,Metallothionein
+, , ,Crystal protein
+, , ,Membrane protein
+, , ,Microbial protein,Bacterial protein
+, , , ,Fungal protein
+, , ,Molecular chaperone,Chaperonin
+, , , ,Heat shock protein
+, , ,Nucleoprotein
+, , ,Phosphoprotein
+, , ,Plant protein,Expansin
+, , , ,Glycinin
+, , , ,Hevein
+, , , ,Leghemoglobin
+, , , ,Legumin
+, , , ,Nodulins
+, , , ,Oleosin
+, , , ,Patatin
+, , , ,Phaseolin
+, , , ,Plastocyanin
+, , , ,Sporamin
+, , ,Protein aggregate
+, , ,Recombinant protein,Recombinant fusion protein,Plant-incorporated protectant
+, , ,Regulatory protein,Arrestin
+, , , ,Cyclin
+, , ,Ribonucleoprotein
+, , ,Ribosomal protein
+, , ,Scleroprotein,Collagen
+, , , ,Elastin
+, , ,Simple protein,Albumin
+, , , ,Globulin
+, , , ,Histones
+, , , ,Protamine
+, , ,Storage protein
+, , ,Structural protein
+, , ,Sulfur protein
+, , ,Viral protein,Coat protein
+, , , ,Nucleocapsid protein
+, , , ,Viral fusion protein
+, ,Carbohydrate,Glycoconjugate,Glycoprotein
+, , ,Glycolipid,Glycophospholipid
+, , , ,Glycosphingolipid
+, , ,Glycoside,Aminoglycoside
+, , , ,Cyanogenic glycoside
+, , , ,Cycasin
+, , , ,Galactoside
+, , , ,Glucoside,Glucosinolate,Glucobrassicin
+, , , ,,,Sinigrin
+, , , ,Glycoflavonoid,Glycoflavone
+, , , ,Iridoid glycoside
+, , , ,Saponin,Steroid saponin
+, , , ,,Triterpenoid saponin
+, , ,Polysaccharide,Arabinan
+, , , ,Arabinogalactan
+, , , ,Arabinoxylan
+, , , ,Callose
+, , , ,Fructan,Inulin
+, , , ,,Levan
+, , , ,Galactan,Agar
+, , , ,,Agarose
+, , , ,,Carrageenan
+, , , ,Galacturonan
+, , , ,Glucan,Beta-glucan
+, , , ,,Cellulose
+, , , ,,Dextran
+, , , ,,Dextrin,Cyclodextrin
+, , , ,,,Maltodextrin
+, , , ,,Starch,Amylopectin
+, , , ,,,Amylose
+, , , ,,,Starch granule
+, , , ,,Xyloglucans
+, , , ,Gum,Guar gum
+, , , ,,Gum tragacanth
+, , , ,,Locust bean gum
+, , , ,,Psyllium gum
+, , , ,Hemicellulose
+, , , ,Lignocellulose
+, , , ,Lipopolysaccharide
+, , , ,Mannan,Galactomannan
+, , , ,,Glucomannan
+, , , ,Mucilage
+, , , ,Pectin
+, , , ,Xylan
+, , ,Sugar,Aldose
+, , , ,Amino sugar,Aminoarabinose
+, , , ,,Hexosamine,Galactosamine
+, , , ,,,Glucosamine
+, , , ,,,N-acetylglucosamine
+, , , ,Deoxysugar,Deoxyglucose,2-deoxyglucose
+, , , ,Hexose
+, , , ,Ketose
+, , , ,Monosaccharide,Arabinose
+, , , ,,Erythrose
+, , , ,,Fructose
+, , , ,,Fucose
+, , , ,,Galactose
+, , , ,,Glucose
+, , , ,,Mannose
+, , , ,,Rhamnose
+, , , ,,Ribose
+, , , ,,Ribulose
+, , , ,,Sorbose
+, , , ,,Xylose
+, , , ,,Xylulose
+, , , ,Nonreducing sugar
+,,,,Reducing sugar
+, , , ,Oligosaccharide,Disaccharide,Cellobiose
+, , , ,,,Gentiobiose
+, , , ,,,Isomaltose
+, , , ,,,Isomaltulose
+, , , ,,,Maltose
+, , , ,,,Melibiose
+, , , ,,,Sucrose
+, , , ,,Fructooligosaccharide
+, , , ,,Galactooligosaccharide
+, , , ,,Lipooligosaccharide
+, , , ,,Stachyose
+, , , ,,Trisaccharide
+, , , ,Pentose
+, , , ,Sugar acid,Aldonic acid,Ascorbic acid
+, , , ,,Glucaric acid
+, , , ,Sugar alcohol
+, , , ,Sugar lactone,Gluconolactone
+, , , ,Sugar phosphate,Fructose 6-phosphate
+, , , ,,Glucose 1-phosphate
+, , , ,,Glucose 6-phosphate
+, , , ,,Glyceraldehyde 3-phosphate
+, , , ,,Ribulose 1,5-diphosphate
+, , , ,Tetrose
+, , , ,Triose
+, ,Enzymes,Hydrolase,Acid anhydride hydrolase,Pyrophosphatase,Ion transporting ATPase,Ca2-transporting ATPase
+, , , ,,,,H-transporting ATP synthase
+, , , ,,,,H-transporting ATPase
+, , , ,,,,Na/K-exchanging ATPase
+, , , ,Amide hydrolase,Amidase
+, , , ,,Asparaginase
+, , , ,,Beta-lactamase
+, , , ,,Chitin deacetylase
+, , , ,,Glutaminase
+, , , ,,Urease
+, , , ,Amidine hydrolase,Adenine deaminase
+, , , ,,Adenosine deaminase
+, , , ,,AMP deaminase
+, , , ,,Cytosine deaminase
+, , , ,Esterase,Carboxylic ester hydrolase
+, , , ,,Diphosphoric monoester hydrolase
+, , , ,,Nuclease,Deoxyribonuclease
+, , , ,,,Ribonuclease
+, , , ,,Phosphoric diester hydrolase,Phosphodiesterase I
+, , , ,,,Phospholipase C
+, , , ,,,Phospholipase D
+, , , ,,Phosphoric monoester hydrolase,Acid phosphatase
+, , , ,,,Alkaline phosphatase
+, , , ,,,Fructose-bisphosphatase
+, , , ,,,Glucose-6-phosphatase
+, , , ,,,Nucleotidase,5'-nucleotidase
+, , , ,,,,Nucleotidase
+, , , ,,,Phosphatidate phosphatase
+, , , ,,,Phosphoprotein phosphatase
+, , , ,,,Phosphorylase phosphatase
+, , , ,,,Phytase,3-phytase
+, , , ,,,,4-phytase
+, , , ,,Sulfuric ester hydrolase
+, , , ,,Thiolester hydrolase
+, , , ,,Triphosphoric monoester hydrolase
+, , , ,Ether hydrolase,Epoxide hydrolase
+, , , ,Glycosidase,N-glycoside hydrolase
+, , , ,,O-glycoside hydrolase,Amylase,Alpha-amylase
+, , , ,,,,Beta-amylase
+, , , ,,,Beta-fructofuranosidase
+, , , ,,,Beta-glucanase
+, , , ,,,Beta-glucuronidase
+, , , ,,,Beta-N-acetylhexosaminidase
+, , , ,,,Cellulase
+, , , ,,,Chitinase
+, , , ,,,Chitosanase
+, , , ,,,Dextranase
+, , , ,,,Galactosidase,Alpha-galactosidase
+, , , ,,,,Beta-galactosidase
+, , , ,,,Glucosidase,Alpha-glucosidase
+, , , ,,,,Beta-glucosidase
+, , , ,,,Mannosidase,Alpha-mannosidase
+, , , ,,,,Beta-mannosidase
+, , , ,,,Polygalacturonase
+, , , ,,,Sucrose alpha-glucosidase
+, , , ,,,Xylanase,Endo-1,4-beta-xylanase
+, , , ,,,,Xylan 1,4-beta-xylosidase
+, , , ,,,,Xylan endo-1,3-beta-xylosidase
+, , , ,Peptidase,Aminopeptidase
+, , , ,,Carboxypeptidase
+, , , ,,Dipeptidase
+, , , ,,Proteinase,Aspartic proteinase
+, , , ,,,Cysteine proteinase,Bromelain
+, , , ,,,,Legumain
+, , , ,,,,Papain
+, , , ,,,Metalloproteinase
+, , , ,,,Serine proteinase
+, , , ,Thiaminase
+, , ,Isomerase,Aldose 1-epimerase
+, , , ,DNA helicase
+, , , ,DNA topoisomerase
+, , , ,DNA topoisomerase (ATP-hydrolysing)
+, , , ,Glucose-6-phosphate isomerase
+, , , ,Mannose-6-phosphate isomerase
+, , , ,Methylmalonyl-CoA mutase
+, , , ,Phosphotransferase,Phosphoglucomutase
+, , , ,Protein disulfide-isomerase
+, , ,Ligase,Carbon-carbon bond ligase,Acetyl-CoA carboxylase
+, , , ,,Propionyl-CoA carboxylase
+, , , ,,Pyruvate carboxylase
+, , , ,Carbon-nitrogen ligase,Acid-amino-acid ligase,Glutamate-cysteine ligase
+, , , ,,,Glutathione synthase
+, , , ,,,Homoglutathione synthase
+, , , ,,,Ubiquitin-protein ligase
+, , , ,,Amide ligase,Aspartate-ammonia ligase
+, , , ,,,Aspartate-ammonia ligase (ADP-forming)
+, , , ,,,Glutamate-ammonia ligase
+, , , ,,Asparagine synthase (glutamine-hydrolysing)
+, , , ,,Carbamoyl-phosphate synthase (glutamine-hydrolysing)
+, , , ,Carbon-oxygen ligase,Aminoacyl tRNA ligase
+, , , ,Carbon-sulfur ligase,Acid-thiol ligase,Acetate-CoA ligase
+, , , ,,,Acetate-CoA ligase (ADP-forming)
+, , , ,, ,Coumarate-CoA ligase
+, , , ,, ,Long-chain-fatty-acid-CoA ligase
+, , , ,Magnesium chelatase
+, , , ,Phosphoric ester bond ligase,DNA ligase (ATP)
+, , , ,,DNA ligase (NAD)
+, , , ,,RNA ligase (ATP)
+, , ,Lyase,Carbon-carbon lyase,Aldehyde-lyase,Fructose-bisphosphate aldolase
+, , , ,,Carboxy-lyase,Adenosylmethionine decarboxylase
+, , , ,,,Arginine decarboxylase
+, , , ,,,Glutamate decarboxylase
+, , , ,,,Indolepyruvate decarboxylase
+, , , ,,,Methylmalonyl-CoA decarboxylase
+, , , ,,,Phosphoenolpyruvate carboxylase
+, , , ,,,Pyruvate decarboxylase
+, , , ,,,Ribulose-bisphosphate carboxylase
+, , , ,Carbon-nitrogen lyase,Amidine-lyase,Argininosuccinate lyase
+, , , ,,Ammonia-lyase,Histidine ammonia-lyase
+, , , ,,,Phenylalanine ammonia-lyase
+, , , ,,,Serine dehydratase
+, , , ,Carbon-oxygen lyase,Chorismate synthase
+, , , ,,Hydro-lyase,Aconitate hydratase
+, , , ,,,Carbonate dehydratase
+, , , ,,,Cystathionine beta-synthase
+, , , ,,,Phosphopyruvate hydratase
+, , , ,,,Porphobilinogen synthase
+, , , ,,Pectin lyase
+, , , ,Carbon-sulfur lyase,1-aminocyclopropane-1-carboxylate synthase
+, , , ,,Cystathionine gamma-lyase
+, , , ,Phosphorus-oxygen lyase,Adenylate cyclase
+, , , ,,Guanylate cyclase
+, , ,Multienzyme complex
+,,Growth regulator,Plant growth regulator,Auxin,2,4,5-T
+,,,,,2,4-D   
+,,,,,Dichlorprop   
+,,,,,IAA   
+,,,,,IBA   
+,,,,,NAA   
+,,,,,Naphthalene acetamide   
+,,,,,Naphthenic acid   
+,,,,,Naphthoxyacetic acid   
+,,,,Cytokinin,BA   
+,,,,,Kinetin   
+,,,,,Thiourea   
+,,,,,Zeatin   
+,,,,Dormancy breaker
+,,,,Ethephon
+,,,,Germination inhibitor
+,,,,Gibberellins,Gibberellic acid
+,,,,Growth inhibitor,ABA
+,,,,,Ancymidol
+,,,,,MH
+,,,,,Morphactin
+,,,,,Paclobutrazol
+,,,,,Thidiazuron
+,,,,,TIBA
+,,,,Growth retardant
+,,,,Plant flowering substance
+,,,,Plant growth stimulant
+,,,,Ripener
+,,,,Rooting compound
+, ,,Phytohormone,Plant Peptide hormone,Systemin
+, ,, ,,Phytosulfokine
+, ,, ,Sex hormone
+, ,, ,Steroid hormone,Brassinosteroid
+, ,Lipids,Acylglycerol,Diacylglycerol
+, , ,,Monoacylglycerol
+, , , ,Stearin
+, , , ,Triacylglycerol,Long chain triacylglycerol
+, , , ,,Medium chain triacylglycerol
+, , , ,,Short chain triacylglycerol
+,,,,Olein
+, , ,Fatty acid,Branched chain fatty acid
+, , , ,Essential fatty acid,Arachidonic acid
+, , , ,,Linoleic acid
+, , , ,,Linolenic acid
+, , , ,,Ricinoleic acid
+,,,,Saturated fatty acid,Hexanoic acid
+,,,,,Myristic acid
+,,,,,Octanoic acid
+, , , ,,Palmitic acid
+, , , ,,Pelargonic acid
+, , , ,,Stearic acid
+, , , ,Unsaturated fatty acid,Monounsaturated fatty acid,Omega-3 fatty acid
+, , , ,,,Omega-6 fatty acid
+, , , ,,Polyunsaturated fatty acid
+, , , ,Long chain fatty acid,Docosenoic acid,Erucic acid
+, , , ,,Oleic acid
+, , , ,,Palmitoleic acid
+, , , ,Medium chain fatty acid
+, , , ,Short chain fatty acid,Maleic acid
+, , , ,,Valeric acid
+, , , ,Volatile fatty acid
+, ,Nucleoside,Deoxyribonucleoside,Thymidine
+, , ,Ribonucleoside,Adenosine
+, , , ,Cytidine
+, , , ,Guanosine
+, , , ,Uridine
+, ,Nucleotide,Cyclic nucleotide,Cyclic AMP
+, , ,,Cyclic GMP
+, , ,Nucleotide coenzyme,Coenzyme A
+, , , ,NAD (coenzyme)
+, , , ,NADP (coenzyme)
+, , ,Oligonucleotide
+, , ,Purine nucleotide,Adenosine diphosphate
+, , , ,Adenosine monophosphate
+, , , ,Adenosine triphosphate
+, , , ,Guanosine diphosphate
+, , , ,Guanosine monophosphate
+, , , ,Guanosine triphosphate
+, , ,Pyridine nucleotide
+, , ,Pyrimidine nucleotide,Cytidine diphosphate
+, , , ,Cytidine monophosphate
+, , , ,Cytidine triphosphate
+, , , ,Uridine diphosphate
+, , , ,Uridine monophosphate
+, , , ,Uridine triphosphate
+, , ,Ribonucleotide
+, ,Pigment,Plant pigment,Chlorophyll
+,,,,Flavonoid
+, , , ,Phytochrome
+, , , ,Xanthophyll
+, ,Provitamin,Carotene,Alpha-carotene
+, , ,,Beta-carotene
+, , , ,Gamma-carotene
+, , , ,Lycopene
+, ,Vitamin,Fat soluble vitamin,Vitamin A
+, , , ,Vitamin D,Ergocalciferol
+, , , ,Vitamin E,Tocopherol,Alpha-tocopherol
+, , , ,,,Beta-tocopherol
+, , , ,,,Gamma-tocopherol
+, , , ,Vitamin K
+, , ,Water-soluble vitamin,Vitamin B complex,Biotin
+, , , ,,Folic acid
+, , , ,,Niacin
+, , , ,,Pantothenic acid
+, , , ,,Pyridoxine
+, , , ,,Riboflavin
+, , , ,,Thiamin
+, , , ,,Vitamin B12
+,Chemical compound,acid,Inorganic acid,Boric acid
+, ,,,Hydrochloric acid
+, , ,,Hydrofluoric acid
+, , , ,Nitric acid
+, , , ,Phosphoric acid
+, , , ,Silicic acid
+, , , ,Sulfuric acid
+, , ,Organic acid,Aromatic acid,4-pyridoxic acid
+, , , ,,Aromatic acid herbicide,2,3,6-TBA
+, , , ,,Benzoic acid,Aminobenzoic acid,p-Aminobenzoic acid
+, , , ,,Phenolic acid,Phenolic acid
+, , , ,,,Aspirin
+, , , ,,,Salicylic acid
+, , , ,,,Tannin
+,,,,,,Sodium benzoate
+, , , ,,,Phthalic acid
+, , , ,Carboxylic acid,Dicarboxylic acid,Fumaric acid
+, , , ,,,Glutaric acid
+, , , ,,,Malic acid
+, , , ,,,Malonic acid
+, , , ,,,Methylmalonic acid
+, , , ,,,Oxalic acid
+, , , ,,,Oxaloacetic acid
+, , , ,,,Succinic acid
+, , , ,,,Tartaric acid
+, , , ,,Keto acid,Acetoacetic acid
+, , , ,,,Alpha-ketoglutaric acid
+, , , ,,,Branched chain keto acid
+, , , ,,,Levulinic acid
+, , , ,,,Pyruvic acid
+, , , ,,Monocarboxylic acid,Acetic acid,Aminooxyacetic acid
+, , , ,,,,Dehydroacetic acid
+, , , ,,,,EDTA
+, , , ,,,,Ethylene glycol tetraacetic acid
+, , , ,,,,Naphthaleneacetic acid
+, , , ,,,Acrylic acid
+, , , ,,,Formic acid
+, , , ,,,Glycolic acid
+, , , ,,,Glyoxylic acid
+, , , ,,,Lactic acid
+, , , ,,,Propionic acid
+, , , ,,,Retinoic acid
+, , , ,,,Valproic acid
+, , , ,,,Xanthurenic acid
+, , , ,,Phosphoglyceric acid,2-phosphoglyceric acid
+, , , ,,,3-phosphoglyceric acid
+, , , ,Phytic acid,Phytin
+, , , ,Propionate
+,,Base,Alkali
+, ,Salt,Inorganic salt,Arsenate,Chromated copper arsenate
+, , ,,,Copper arsenate
+, , ,,,Lead arsenate
+, , ,,Bicarbonate,Ammonium bicarbonate
+, , ,,,Sodium bicarbonate
+, , ,,Borate,Borax (salt)
+, , ,,,Sodium borate
+, , ,,Bromate,Potassium bromate
+, , ,,Carbonate,Ammonium carbonate
+, , ,,,Calcium carbonate
+, , ,,,Copper carbonate
+, , ,,,Magnesium carbonate
+, , ,,,Potassium carbonate
+, , ,,,Sodium carbonate
+, , ,,Chlorate,Sodium chlorate
+, , ,,Chlorite
+, , ,,Cyanate,Potassium cyanate
+, , ,,Cyanide,Ferricyanide
+, , ,,,Ferrocyanide
+, , ,,,Hydrogen cyanide
+, , ,,,Potassium cyanide
+, , ,,Halide,Potassium bromide
+, , ,,,Chloride,Aluminum chloride
+, , ,,,,Ammonium chloride
+, , ,,,,Calcium chloride
+, , ,,,,Lithium chloride
+, , ,,,,Magnesium chloride
+, , ,,,,Mercurous chloride
+, , ,,,,Potassium chloride
+, , ,,,,Iodized salt
+, , ,,,Fluoride,Sodium fluoride
+, , ,,,,Sulfur hexafluoride
+, , ,,,Iodide,Potassium iodide
+, , ,,Nitrate,Ammonium nitrate
+, , ,,,Calcium ammonium nitrate
+, , ,,,Phenylmercury nitrate
+, , ,,,Silver nitrate
+, , ,,,Urea nitrate,Urea ammonium nitrate
+, , ,,,,Urea nitrate
+, , ,,Nitrite,Sodium nitrite
+, , ,,Perchlorates
+, , ,,Permanganate,Potassium permanganate
+, , ,,Silicate,Calcium silicate
+, , ,,,Potassium silicate
+, , ,,,Sodium silicate
+, , ,,Sulfate,Aluminum sulfate
+, , ,,,Ammonium sulfate
+, , ,,,Barium sulfate
+, , ,,,Calcium sulfate
+, , ,,,Copper sulfate
+, , ,,,Ferric sulfate
+, , ,,,Ferrous sulfate
+, , ,,,Magnesium sulfate
+, , ,,,Manganous sulfate
+, , ,,,Potassium sulfate
+, , ,,,Sodium sulfate
+, , ,,,Urea ammonium sulfate
+, , ,,,Zinc sulfate
+, , ,,Sulfide,Carbon disulfide
+, , ,,,Hydrogen sulfide
+, , ,,,Pyrite
+, , ,,,Sodium sulfide
+, , ,,Sulfite,Sodium sulfite
+, , ,,Thiocyanate,Ammonium thiocyanate
+, , ,,Thiosulfate,Ammonium thiosulfate
+, , ,,,Silver thiosulfate
+, ,Oxide,Aluminum oxide
+, , ,Calcium oxide
+, , ,Carbon monoxide
+, , ,Chlorine dioxide
+, , ,Chromic oxide
+, , ,Cuprous oxide
+, , ,Deuterium oxide
+, , ,Iron oxides
+, , ,Magnesium oxide
+, , ,Manganese oxide,Manganese dioxide
+, , ,Nitrogen oxide,Nitric oxide
+, , ,,Nitrogen dioxide
+, , ,Silica,Silica gel
+, , ,Sulfur dioxide
+, , ,Zinc oxide
+, ,Peroxide,Calcium peroxide
+, , ,Hydrogen peroxide
+, , ,Hydroperoxides
+, ,Mercury compound,Mercury fungicide,Mercuric chloride
+, , ,,Phenylmercury nitrate
+, , ,,Thimerosal
+, ,Nitrogen compound,Ammonia,Anhydrous ammonia
+, , ,Ammonium compound,Ammonium acetate
+, , ,,Ammonium hydroxide
+, , ,,Ammonium lactate
+, , ,,Ammonium oxalate
+, , ,,Ammonium salt,Ammonium phosphate
+, ,Organic compound,Alcohol,Amino alcohol
+, , ,,Benzyl alcohol
+, , ,,Butanol
+, , ,,Ethanol
+, , ,,Ethylene chlorohydrin
+, , ,,Fatty alcohol
+, , ,,Flavanol
+, , ,,Glycol,Sphingosine
+, , ,,Methanol
+, , ,,Phenol,Gossypol
+, , ,,,Hydroquinone
+, , ,,,Naphthol
+, , ,,,Nitrophenol
+, , ,,,Phenol
+, , ,,,Polyphenol
+, , ,,Sterol,Ergosterol
+, , ,,,Phytosterol,Campesterol
+, , ,,,,Cucurbitacins
+, , ,,,,Phytoecdysteroid
+, , ,,,,Plant estrogen
+, , ,,,,Plant stanol
+, , ,,,,Stigmasterol
+, , ,Alkaloid
+, , ,Alkaloid,Arecoline
+, , ,,Betalain
+, , ,,Isoquinoline alkaloid,Berberine
+, , ,,,Colchicine
+, , ,,,Emetine
+, , ,,,Sanguinarine
+, , ,,Lycorine
+, , ,,Opium alkaloid,Buprenorphine
+, , ,,,Codeine
+, , ,,,Etorphine
+, , ,,,Morphine
+, , ,,,Papaverine
+, , ,,,Thebaine
+, , ,,Pyridine alkaloid,Anabasine
+, , ,,,Mimosine
+, , ,,,Nicotine
+, , ,,,Nornicotine
+, , ,,,Trigonelline
+, , ,,Pyrrolizidine alkaloid,Monocrotaline
+, , ,,,Retronecine
+, , ,,,Retrorsine
+, , ,,,Riddelliine
+, , ,,Steroid alkaloid,Glycoalkaloid,Alpha-chaconine
+, , ,,,,Alpha-tomatine
+, , ,,,,Solanine
+, , ,,,Solanidine
+, , ,,Tropane alkaloid,Atropine
+, , ,,,Cocaine
+, , ,,,Scopolamine
+, , ,,Xanthine alkaloid,Caffeine
+, , ,,,Theobromine
+, , ,,,Theophylline
+, , ,Aromatic compound,Aromatic hydrocarbon
+, , ,,Phenolic compound
+, , ,,Quinone
+, , ,Carbonyl compound
+, , ,Ester,Acetate,Bornyl acetate
+, , ,,,Cellulose acetate
+, , ,,,Retinyl acetate
+, , ,,Acetyl coenzyme A
+, , ,,Benzoate,Benzyl benzoate
+, , ,,,Methylparaben
+, , ,,Butyrate
+, , ,,Carbamate,Carbadox
+, , ,,,Carbamate pesticide
+, , ,,,Ethyl carbamate
+, , ,,,Methylcarbamate,Carbaryl
+, , ,,Carbonyl sulfide
+, , ,,Chlorogenic acid
+, , ,,Dimethyl sulfate
+, , ,,Fatty acid ester
+, , ,,Formate
+, , ,,Isothiocyanate
+, , ,,Methyl isocyanate
+, , ,,Methyl jasmonate
+, , ,,Methyl salicylate
+, , ,,Methyl sulfide
+, , ,,Sucrose ester
+,Chemical residue,Drug residue,Antibiotic residue
+, ,Pesticide residue,Acaricide residue
+, , ,Fungicide residue
+, , ,Herbicide residue
+, , ,Insecticide residue
+,Technical chemical,Absorbent
+, ,Acidulant
+, ,Additive,Artificial color
+, ,,Bulking agent
+, , ,Flavor enhancer
+, , ,Flavoring,Artificial flavoring
+, , ,Food coloring
+, , ,Food preservative,Food biopreservative
+, , ,Gras substance
+, , ,Gelling agent
+, , ,Natural additive
+, ,Adhesive
+, ,Adjuvant,Pesticide adjuvant
+, ,Adsorbent
+, ,Alkylation agent
+, ,Antagonists
+, ,Antifouling agent
+, ,Antioxidant,Free radical scavenger
+, ,Insect attractant
+, ,Oviposition attractant
+, ,Bleaching agent
+, ,Buffer
+, ,Catalyst
+, ,Chelating agent
+, ,Cleaning agent
+, ,Coagulant
+, ,Cryoprotectant
+, ,Curing agent
+, ,Defoliant
+, ,Deicing agent
+, ,Desiccant
+, ,Detergent
+, ,Disinfectant
+, ,Dye,Azo dye,Amaranth dye
+, , ,Fluorescent dye,Erythrosine
+, , ,,Fluorescein
+, , ,Methylene blue
+, ,Emulsifier
+, ,Reducing agent
+, ,Solvent
+, ,Stabilizer
+, ,Tanning agent
+,Biochemical pathway,C3 photosynthesis
+, ,C4 photosynthesis
+, ,Calvin cycle
+, ,Electron transport chain,Oxidative phosphorylation
+, ,Glyoxylate cycle 
+, ,Nitrogen fixation
+, ,Pentose phosphate cycle
+, ,Tricarboxylic acid cycle
+,Biochemical polymorphism ,Enzyme polymorphism
+,Enzymatic reaction,Enzymatic browning
+, ,Enzymatic hydrolysis
+, ,Enzymatic interesterification
+,Enzymology ,Enzyme activation
+, ,Enzyme activity
+, ,Enzyme deficiency
+, ,Enzyme inactivation
+, ,Enzyme inhibition
+, ,Enzyme kinetic
+, ,Enzyme polymorphism
+, ,Enzyme stability
+, ,Enzyme substrate
+, ,Isozyme,Allozyme
+, ,Substrate specificity
+,Metabolism ,Biosynthesis
+, ,Carbohydrate metabolism,Carbohydrate loading
+, ,,Glucoregulation,Gluconeogenesis
+, ,,Glucose tolerance
+, ,,Glycemic control
+, ,,Glycolysis
+, ,,Photosynthesis,Crassulacean acid metabolism
+, ,,,Light harvesting complex,Phycobilisome
+, ,,,Photoinhibition
+, ,,,Photophosphorylation
+, ,,,Photorespiration
+, ,,,Photosynthetic reaction center,D1 protein
+, ,,,,D2 protein
+, ,,,Photosystem I
+, ,,,Photosystem II,Oxygen evolving complex
+, ,Energy metabolism,Aerobiosis
+, ,,Anaerobiosis,Fermentation,Alcoholic fermentation,Ethanol fermentation
+, ,,,,Batch fermentation,Silage fermentation
+, ,,,,Continuous fermentation
+, ,,,,Lactic fermentation
+, ,,,,Liquid state fermentation
+, ,,,,Malolactic fermentation
+, ,,,,Solid state fermentation
+, ,,,,Submerged fermentation
+, ,Lipid metabolism
+, ,,Beta oxidation
+, ,,Fatty acid metabolism
+, ,,Lipogenesis
+, ,,Lipolysis
+, ,Mineral metabolism
+, ,Nitrogen metabolism
+, ,Protein metabolism,Amino acid metabolism
+, ,,Protein depletion
+, ,,Protein deposition
+, ,,Protein synthesis
+, ,Water metabolism
+,Analytical chemistry,Analytical method,Calorimetry
+, ,,Chromatography,Gas chromatography,Capillary gas chromatography
+, ,,,Gel permeation chromatography,Size exclusion chromatography
+, ,,,Ion exchange chromatography
+, ,,,Liquid chromatography,Affinity chromatography
+, ,,,,High performance liquid chromatography
+, ,,,Paper chromatography
+, ,,,Reversed-phase chromatography,Reversed-phase liquid chromatography
+, ,,,Thin layer chromatography
+, ,,Colorimetry
+, ,,Electrophoresis,Capillary electrophoresis
+, ,,,Gel electrophoresis
+, ,,,Isoelectric focusing
+, ,,,Polyacrylamide gel electrophoresis
+, ,,High volume instruments
+, ,,Kjeldahl method
+, ,,Magnetic resonance imaging
+, ,,Neutron activation analysis
+, ,,Spectroscopy,Atomic absorption spectrometry
+, ,,,Electron paramagnetic resonance spectroscopy
+, ,,,Fluorescence emission spectroscopy
+, ,,,Infrared spectroscopy
+, ,,,Mass spectrometry
+, ,,,Nuclear magnetic resonance spectroscopy
+, ,,,Ultraviolet-visible spectroscopy
+, ,Chemical analysis,Iodine value
+, ,,Peroxide value
+, ,,Saponification number
+, ,,Titration
+,Chemical composition,Ash content
+, ,Carbohydrate composition
+, ,Carbon nitrogen ratio
+, ,Dry matter content
+, ,Fiber content,Crude fiber
+, ,,Insoluble fiber
+, ,,Soluble fiber
+, ,Ingredient,Active ingredient
+, ,,Inert ingredient
+, ,Lipid composition,Fat globule
+, ,,Fatty acid composition
+, ,,Lipid content
+, ,Mineral content
+, ,Nitrogen content,Amino nitrogen
+, ,,Ammonium nitrogen
+, ,,Nitrate nitrogen
+, ,,Nonprotein nitrogen
+, ,Nutrient content
+, ,Protein composition,Amino acid composition
+, ,,Protein content,Crude protein
+, ,,,True protein
+, ,Proximate composition
+, ,Vitamin content
+,Physicochemical property,Acidity
+, ,Alkalinity
+, ,Antioxidant activity
+, ,Biodegradability
+, ,Buffering capacity
+, ,Colloidal properties
+, ,Energy content
+, ,Enzyme stability
+, ,Half life
+, ,Isoelectric point
+, ,Molecular weight
+, ,Pesticide persistence
+, ,Photostability
+, ,Salinity
+, ,Solubility,Water solubility
+, ,Specific gravity
+, ,Stickiness
+, ,Thermal conductivity
+, ,Thermal diffusivity
+, ,Thermal stability
+, ,Water activity
+,Processing chemistry,Distillate
+, ,Extract,Plant extract,Fruit extract
+, ,,,Neem extract
+, ,,,Seed extract,Grape seed extract
+, ,,,,Neem seed extract
+, ,,,Vegetable extract
+, ,Filtrate,Culture filtrate
+,Reaction chemistry,Catalytic activity
+, ,Chemical reaction,Acylation,Acetylation
+, ,,,Aminoacylation
+, ,,Alkalinization
+, ,,Alkylation
+, ,,Bromination
+, ,,Calcification
+, ,,Carboxylation
+, ,,Deamination
+, ,,Degradation,Biodegradation,Humification
+, ,,,Chemical degradation,Thermal degradation,Pyrolysis
+, ,,,Protein degradation
+, ,,Dephosphorylation
+, ,,Depolymerization
+, ,,Esterification
+, ,,Glycosylation
+, ,,Hydrogenation
+, ,,Hydrolysis
+, ,,Hydroxylation
+, ,,Iodination
+, ,,Ionization
+, ,,Isomerization
+, ,,Methylation
+, ,,Mineralization
+, ,,Ozonation
+, ,,Peroxidation,Lipid peroxidation
+, ,,Phosphorylation,Protein phosphorylation
+, ,,Photochemical reaction,Photobleaching
+, ,,,Photolysis
+, ,,,Photooxidation
+, ,,,Photoyellowing
+, ,,Polymerization
+, ,,Redox reaction,Electron transfer
+, ,,,Oxidation
+, ,,,Reduction,Nitrate reduction
+, ,,Transamination
+, ,,Transesterification
+, ,Reaction kinetic,Enzyme kinetic
+, ,,Reaction inhibition
+, ,Reaction mechanism
+, ,Electromagnetic radiation,Infrared radiation
+, ,,Ionizing radiation,Gamma radiation
+, ,,,X-radiation
+, ,,Light,Blue light
+, ,,,Far-red light
+, ,,,Light intensity
+, ,,,Light quality
+, ,,,Luminescence,Chemiluminescence,Bioluminescence
+, ,,,,Fluorescence
+, ,,,,Phosphorescence
+, ,,,Photosynthetically active radiation
+, ,,,Polarized light
+, ,,,Red light
+, ,,,White light
+, ,,Microwave radiation
+, ,,Radio wave
+, ,,Ultraviolet radiation
+,Energy,Energy balance,Energy expenditure,Thermic effect of food
+, ,,Energy intake
+, ,Energy conversion,Energy efficiency
+, ,Energy transfer
+,Mechanic,Fluid mechanic,Aerodynamic
+, ,,Capillarity
+, ,,Contact angle
+, ,,Diffusion
+, ,,Flow,Air flow
+, ,,,Laminar flow
+, ,,,Mass flow
+, ,,,Turbulent flow
+, ,,Flow resistance
+, ,,Gas exchange
+, ,,Hydrodynamic,Hydrodynamic dispersion
+, ,,,Immiscible displacement
+, ,,Mass transfer
+, ,,Surface tension
+, ,Gravity,Microgravity
+, ,,Zero gravity
+, ,Kinematic
+, ,Mechanical property,Elasticity
+, ,,Modulus of rupture
+, ,,Resistance to penetration
+, ,Pressure,Osmotic pressure
+, ,,Vapor pressure
+, ,Velocity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

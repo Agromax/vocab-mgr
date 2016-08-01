@@ -65,6 +65,8 @@ chokidar.watch(watchPath, {
 }).on('all', (event, path) => {
     if (event === 'add') {
         console.log("I'll be generating triples from the file: " + path + " in a moment");
+        path = path.charAt(0).toLowerCase() + path.slice(1);
+        console.log(path);
         FileStore.findByCSVStoragePath(path, function (item) {
             if (!item) {
                 return console.log('I choose to ignore the file: ' + path + ', as its an orphan');
